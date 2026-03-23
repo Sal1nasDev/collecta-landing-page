@@ -1,0 +1,611 @@
+{
+  "nav": {
+    "theChallenge": "El Desafío",
+    "solutions": "Soluciones",
+    "softwareSolution": "Solución de Software",
+    "softwareSolutionDesc": "Automatiza tu cartera con insights predictivos",
+    "managedServices": "Servicio Administrado",
+    "managedServicesDesc": "Equipo experto de CxC sin aumentar plantilla",
+    "industries": "Industrias",
+    "aboutUs": "Nosotros",
+    "careers": "Trabaja con nosotros",
+    "signIn": "Iniciar Sesión",
+    "getDemo": "Solicitar Demo",
+    "contact": "Contacto",
+    "pricing": "Precios",
+    "menu": "Menú",
+    "partners": "Socios"
+  },
+  "hero": {
+    "headline1": "Las Cuentas Por Cobrar",
+    "headline2": "Te Dejan Adivinando.",
+    "headline3": "Cambiemos Eso.",
+    "subheadline": "Visibilidad, automatización y seguridad para equipos de CxC que no pueden darse el lujo de frenar.",
+    "cta": "Solicitar Demo →",
+    "ctaSecondary": "Mira Cómo Funciona →",
+    "socialProof": "Ayudando a equipos financieros a cobrar más rápido, todos los días"
+  },
+  "proof": {
+    "cashRecovered": { "value": "$2.4B+", "label": "Efectivo recuperado", "description": "Identificado y cobrado" },
+    "dsoReduction": { "value": "30%", "label": "Reducción de DSO", "description": "Mejora promedio" },
+    "roi": { "value": "10x", "label": "ROI", "description": "En el primer año" },
+    "predictability": { "value": "99%", "label": "Predictibilidad", "description": "Pronóstico de flujo de caja" }
+  },
+  "customers": {
+    "title": "Algunos de nuestros Clientes"
+  },
+  "problem": {
+    "badge": "La Realidad",
+    "title": "Las Cuentas por Cobrar son más difíciles de lo que deberían ser",
+    "description": "Gestionar el camino desde la factura hasta el cobro significa navegar la complejidad cada día. Diferentes clientes, diferentes reglas, diferentes expectativas. Las herramientas tradicionales no fueron diseñadas para esto.",
+    "fragmentedSystems": { "title": "Sistemas fragmentados", "description": "El Order-to-Cash vive en múltiples herramientas. Los datos están dispersos, el contexto se pierde, y nadie tiene la imagen completa." },
+    "everyCustomer": { "title": "Cada cliente es diferente", "description": "Términos de pago, límites de crédito, preferencias de comunicación—un solo enfoque nunca funciona para todos. Pero la personalización manual no escala." },
+    "manualWork": { "title": "El trabajo manual domina", "description": "Los equipos pasan horas persiguiendo actualizaciones, enviando recordatorios y actualizando hojas de cálculo en lugar de resolver problemas reales." },
+    "lackVisibility": { "title": "Falta de visibilidad", "description": "Sin una vista clara de lo que está pasando—y lo que viene—los equipos siempre están reaccionando en lugar de planificando." }
+  },
+  "solution": {
+    "badge": "La Solución ARMS",
+    "title": "Una capa conectora para todo tu proceso",
+    "description": "ARMS no reemplaza lo que tienes—lo integra todo. Visibilidad en tiempo real, guía inteligente y acción coordinada a través de cada cliente y cada equipo.",
+    "seeEverything": { "title": "Ve todo", "description": "Visibilidad en tiempo real de todos los clientes, todas las etapas, todos los equipos—en una vista unificada." },
+    "connectDots": { "title": "Conecta los puntos", "description": "Vincula eventos, acciones y resultados. Entiende causa y efecto en todo tu portafolio." },
+    "knowNext": { "title": "Sabe qué sigue", "description": "Guía clara sobre prioridades y próximos pasos—para que tu equipo siempre sepa dónde enfocarse." },
+    "cta": "Ver ARMS en Acción"
+  },
+  "pillars": {
+    "badge": "Por qué ARMS",
+    "title": "Construido alrededor de lo que más importa",
+    "description": "Cuatro principios que guían todo lo que construimos.",
+    "customization": { "title": "Personalización", "description": "Cada cliente es diferente. ARMS respeta eso." },
+    "collaboration": { "title": "Colaboración", "description": "Finanzas y cobranza alineados en una sola vista compartida." },
+    "automation": { "title": "Automatización", "description": "El trabajo repetitivo avanza automáticamente." },
+    "predictability": { "title": "Predictibilidad", "description": "Próximos pasos claros, menos sorpresas." }
+  },
+  "roles": {
+    "badge": "Diseñado para Cada Rol",
+    "title": "Todos obtienen lo que necesitan",
+    "description": "Desde la dirección hasta el escritorio de cobranza, ARMS entrega claridad en cada nivel.",
+    "cfo": { "title": "CFO y Líderes Financieros", "benefits": ["Visibilidad de flujo de caja en tiempo real", "Reconocimiento de ingresos predecible", "Confianza en decisiones estratégicas"], "quote": "Finalmente, puedo ver lo que viene—no solo lo que ya pasó." },
+    "otc": { "title": "Gerentes de OTC", "benefits": ["Control unificado del proceso", "Coordinación entre equipos", "Manejo de excepciones a escala"], "quote": "Un solo lugar para gestionar todo, en vez de malabarear diez sistemas." },
+    "ar": { "title": "Especialistas de CxC", "benefits": ["Prioridades diarias claras", "Seguimientos automatizados", "Enfoque en lo que importa"], "quote": "Paso tiempo en problemas reales, no persiguiendo actualizaciones de estado." }
+  },
+  "experience": {
+    "badge": "La Experiencia",
+    "title": "Cómo se siente usar ARMS",
+    "description": "Más allá de funciones y características—esto es sobre cómo tu trabajo cambia para mejor.",
+    "lessStress": { "title": "Menos estrés", "description": "Ve los problemas antes de que se conviertan en crisis. Trabaja proactivamente, no reactivamente." },
+    "moreControl": { "title": "Más control", "description": "Sabe exactamente dónde están las cosas—en cualquier momento, para cualquier cliente." },
+    "confidentDecisions": { "title": "Decisiones seguras", "description": "Insights basados en datos que te ayudan a priorizar lo que más importa." },
+    "betterTeamwork": { "title": "Mejor trabajo en equipo", "description": "Todos en la misma página, trabajando hacia los mismos objetivos." }
+  },
+  "proof": {
+    "cashRecovered": { "value": "$2.4B+", "label": "Efectivo recuperado", "description": "Identificado y cobrado" },
+    "dsoReduction": { "value": "30%", "label": "Reducción de DSO", "description": "Mejora promedio" },
+    "roi": { "value": "10x", "label": "ROI", "description": "En el primer año" },
+    "predictability": { "value": "99%", "label": "Predictibilidad", "description": "Pronóstico de flujo de caja" }
+  },
+  "customers": {
+    "title": "Algunos de nuestros Clientes"
+  },
+  "cta": {
+    "title": "¿Listo para traer claridad a tus Cuentas por Cobrar?",
+    "description": "Únete a los equipos financieros que pasaron del caos a la claridad. Ve cómo ARMS puede funcionar para tu organización.",
+    "getDemo": "Solicitar Demo",
+    "talkSales": "Hablar con Ventas",
+    "noCommitment": "Sin compromiso. Ve ARMS en acción en 30 minutos."
+  },
+  "footer": {
+    "product": "Producto",
+    "industries": "Industrias",
+    "pricing": "Precios",
+    "careers": "Trabaja con nosotros",
+    "contact": "Contacto",
+    "privacyPolicy": "Política de Privacidad",
+    "copyright": "© 2024 ARMS. Todos los derechos reservados.",
+    "partners": "Socios"
+  },
+  "careers": {
+    "hero": { "title1": "Construye algo que", "title2": "importa", "description": "Resolvemos problemas reales para equipos financieros en todo el mundo. Aquí, tendrás la libertad de contribuir significativamente, trabajar en cosas que importan, y crecer junto a personas que se preocupan por su oficio.", "tellUs": "Cuéntanos dónde encajas", "openPositions": "Posiciones abiertas" },
+    "whyWork": {
+      "title": "Por qué trabajar en ARMS", "description": "Lo que hace diferente a este lugar.",
+      "realProblems": { "title": "Problemas reales, impacto real", "description": "Cada función que construyes es usada por equipos que gestionan millones en cuentas por cobrar." },
+      "autonomy": { "title": "Autonomía y confianza", "description": "Contratamos personas capaces y les damos espacio para hacer su mejor trabajo." },
+      "smallTeams": { "title": "Equipos pequeños, alta responsabilidad", "description": "Sin capas de aprobación. Eres dueño de tu trabajo desde la idea hasta producción." },
+      "learning": { "title": "Aprendizaje continuo", "description": "Trabaja junto a personas que se preocupan por el oficio y por mejorar." }
+    },
+    "alwaysOpen": { "badge": "Siempre abiertos", "title": "El gran talento no siempre encaja en roles predefinidos", "description": "Si crees que puedes contribuir a ARMS, cuéntanos cómo. Siempre estamos abiertos a conocer personas que piensan diferente y quieren construir sistemas significativos.", "cta": "Cuéntanos dónde encajas" },
+    "positions": {
+      "title": "Posiciones abiertas", "description": "Oportunidades actuales para unirte al equipo.", "viewRole": "Ver puesto",
+      "fullStack": { "title": "Desarrollador Full Stack", "location": "Madrid, España", "type": "Tiempo completo", "description": "Trabaja en todo el stack para construir herramientas escalables que potencian el proceso Order-to-Cash." },
+      "arSpecialist": { "title": "Especialista en Cuentas por Cobrar", "location": "Ciudad de México, México", "type": "Tiempo completo", "description": "Gestiona y optimiza flujos reales de cuentas por cobrar usando ARMS para clientes globales." }
+    },
+    "openApplication": {
+      "backLink": "Volver a Carreras", "badge": "Siempre abiertos", "title": "Cuéntanos cómo contribuirías",
+      "description": "Siempre estamos abiertos a conocer personas que piensan críticamente, toman responsabilidad y quieren construir sistemas significativos. No necesitas encajar en un rol predefinido para pertenecer aquí.",
+      "valuesTitle": "Lo que valoramos",
+      "values": {
+        "ownership": { "title": "Responsabilidad sobre tareas y resultados", "description": "Tomas responsabilidad de tu trabajo de principio a fin." },
+        "ambiguity": { "title": "Comodidad con la ambigüedad", "description": "Puedes navegar situaciones inciertas y encontrar tu propio camino." },
+        "curiosity": { "title": "Curiosidad y aprendizaje", "description": "Quieres entender cómo funcionan las cosas y por qué." },
+        "operational": { "title": "Respeto por el trabajo operacional real", "description": "Aprecias la complejidad de las operaciones del día a día." }
+      },
+      "stepsTitle": "Cómo funciona esta aplicación",
+      "steps": ["Sube tu CV", "Cuéntanos en qué crees que serías bueno", "Comparte qué quieres construir o aprender"],
+      "stepsNote": "Sin presión. Sin expectativas de perfección."
+    },
+    "form": {
+      "fullName": "Nombre completo", "fullNamePlaceholder": "Tu nombre completo", "email": "Correo electrónico", "emailPlaceholder": "tu@ejemplo.com",
+      "location": "Ubicación", "locationPlaceholder": "Ciudad, País", "uploadCV": "Subir CV", "uploadPrompt": "Haz clic para subir o arrastra y suelta",
+      "uploadFormats": "PDF, DOC, DOCX hasta 10MB", "contribution": "¿En qué crees que serías bueno en ARMS?",
+      "contributionPlaceholder": "Cuéntanos sobre tus habilidades, en qué te gustaría trabajar y cómo podrías contribuir...",
+      "whyInterested": "Cuéntanos por qué te interesa (opcional)", "whyInterestedPlaceholder": "¿Qué te atrae de esta",
+      "role": "posición", "opportunity": "oportunidad",
+      "anythingElse": "¿Algo más que quieras que sepamos? (opcional)",
+      "anythingElsePlaceholder": "Enlaces de portafolio, disponibilidad, o cualquier otra cosa relevante...",
+      "anythingElseOpenPlaceholder": "Enlaces de portafolio, disponibilidad, qué quieres aprender, o cualquier otra cosa relevante...",
+      "submit": "Enviar solicitud", "submitting": "Enviando...",
+      "successTitle": "Gracias por aplicar", "successMessage": "Apreciamos que te hayas tomado el tiempo de contactarnos. Leemos cada aplicación cuidadosamente y te contactaremos si hay una buena conexión.",
+      "errorTitle": "Información faltante", "errorMessage": "Por favor completa todos los campos requeridos y sube tu CV.",
+      "invalidFileTitle": "Tipo de archivo inválido", "invalidFileMessage": "Por favor sube un archivo PDF, DOC o DOCX.",
+      "fileTooLargeTitle": "Archivo muy grande", "fileTooLargeMessage": "Por favor sube un archivo menor a 10MB.",
+      "receivedTitle": "Solicitud recibida", "receivedMessage": "Gracias por tu interés. Te contactaremos pronto."
+    },
+    "jobPages": {
+      "backAll": "Todos los puestos", "apply": "Postular a este rol",
+      "sections": { "about": "Sobre el rol", "whatYoullDo": "Lo que harás", "whatWeLookFor": "Lo que buscamos", "howWeWork": "Cómo trabajamos" },
+      "department": { "operations": "Operaciones", "engineering": "Ingeniería" },
+      "howWeWorkBody": "Valoramos la responsabilidad, la autonomía y la colaboración. Tendrás la libertad de tomar decisiones y la responsabilidad que eso conlleva. Nos enfocamos en resolver problemas reales para usuarios reales—sin trabajo innecesario, sin teatro.",
+      "roles": {
+        "fullStack": {
+          "about": "Buscamos un Desarrollador Full Stack para ayudar a construir y escalar las herramientas que impulsan nuestra plataforma Order-to-Cash. Trabajarás en todo el stack—desde diseñar interfaces intuitivas hasta construir sistemas robustos. Es un rol práctico, con verdadera responsabilidad sobre funcionalidades que los equipos financieros usan todos los días.",
+          "whatYoullDo": ["Construir y mantener funcionalidades en frontend y backend", "Diseñar e implementar APIs que soporten flujos financieros complejos", "Colaborar con producto y operaciones para entender necesidades reales", "Mejorar confiabilidad, rendimiento y experiencia de desarrollo", "Participar en revisiones de código y mantener altos estándares de calidad"],
+          "whatWeLookFor": ["3+ años de experiencia construyendo aplicaciones web", "Dominio sólido de TypeScript y React", "Experiencia con bases de datos relacionales y diseño de APIs", "Comodidad trabajando en un entorno dinámico y orientado a la responsabilidad", "Comunicación clara y mentalidad colaborativa"]
+        },
+        "arSpecialist": {
+          "about": "Buscamos un Especialista en Cuentas por Cobrar para unirse al equipo de operaciones y gestionar flujos de CxC para clientes globales. Serás quien asegure que las facturas se cobren, que las disputas se resuelvan y que el flujo de caja se mantenga saludable. Usando ARMS como herramienta principal, aportarás estructura y eficiencia a cuentas complejas.",
+          "whatYoullDo": ["Gestionar procesos end-to-end de cuentas por cobrar para portafolios asignados", "Monitorear reportes de antigüedad y priorizar actividades de cobranza", "Resolver disputas de facturación e inconsistencias con clientes", "Mantener registros y documentación precisos en ARMS", "Colaborar con equipos financieros del cliente para mejorar procesos de pago"],
+          "whatWeLookFor": ["2+ años de experiencia en cuentas por cobrar o crédito y cobranza", "Gran atención al detalle y habilidades de organización", "Excelente comunicación en inglés y español", "Comodidad con tecnología y aprender nuevos sistemas rápidamente", "Mentalidad proactiva y de resolución de problemas"]
+        }
+      }
+    }
+  },
+  "industries": {
+    "title": "Order-to-Cash Diseñado para", "titleHighlight": "Cualquier Industria",
+    "agnosticMessage": "ARMS es agnóstico a la industria y funciona en todas las geografías. Estas industrias representan donde tenemos la experiencia más profunda.",
+    "collectionChallenges": "Desafíos de Cobranza", "averageDSO": "DSO Promedio", "dsoWithARMS": "DSO con ARMS",
+    "averageDSOTooltip": "Cuántos días en promedio te toma cobrar", "armsDSOTooltip": "Tu línea de tiempo de pago mejorada con ARMS",
+    "trustedBy": "Confían en nosotros:", "seeInAction": "Ver ARMS en Acción",
+    "exploreHow": "Explora Cómo ARMS se Adapta a tu Industria", "exploreIndustriesShort": "Explorar Industrias",
+    "transportLogistics": "Transporte y Logística", "pharma": "Farmacéutica", "industrial": "Industrial",
+    "consumerGoods": "Bienes de Consumo", "professionalServices": "Servicios Profesionales",
+    "anyIndustry": {
+      "title": "Cualquier Industria con un Problema de CxC", "industryAvgDSO": "DSO Promedio de la Industria",
+      "withARMS": "Con ARMS", "days": "días", "badge": "30% de reducción promedio de DSO en todas las industrias",
+      "stat1Label": "Portafolio gestionado", "stat2Label": "Industrias atendidas", "stat3Label": "Reducción promedio de DSO",
+      "closingText": "¿No ves tu industria? ARMS funciona donde haya facturas.", "cta": "Habla con Nuestro Equipo"
+    },
+    "challenges": {
+      "transport1": "Más del 60% de los retrasos de pago son causados por Carta de Porte o Comprobante de Entrega faltante o incorrecto",
+      "transport2": "Alto volumen de facturas con disputas frecuentes relacionadas con faltantes, daños o cargos accesorios",
+      "transport3": "La facturación multipartes crea fragmentación en la responsabilidad del seguimiento de pagos",
+      "pharma1": "Las devoluciones pueden representar hasta el 10% de los ingresos brutos y requieren validación manual",
+      "pharma2": "Los pagos dependen de la precisión de precios contractuales y aprobaciones de múltiples pasos",
+      "pharma3": "Pequeños errores de precio o cumplimiento a menudo retrasan el pago por semanas",
+      "industrial1": "Pagos ligados a la aceptación de entrega o hitos del proyecto",
+      "industrial2": "Las redes de distribuidores reducen la visibilidad sobre quién controla el pago",
+      "industrial3": "Más del 10% de las cuentas por cobrar típicamente están vencidas más de 90 días",
+      "consumer1": "Más del 50% de las facturas B2B se pagan tarde al menos una vez",
+      "consumer2": "Las deducciones y devoluciones de retail requieren manejo manual constante",
+      "consumer3": "El alto volumen de facturas dificulta la priorización",
+      "professional1": "El alcance extendido causa disputas de facturación en más del 40% de los compromisos de consultoría, congelando aprobaciones de pago",
+      "professional2": "Las cadenas de aprobación multinivel del cliente retrasan los pagos 15–20 días más allá de los términos acordados en promedio",
+      "professional3": "La cultura basada en relaciones desalienta la cobranza, dejando el 30% de las facturas vencidas sin reclamar después de 60 días"
+    }
+  },
+  "software": {
+    "badge": "Solución de Software", "title": "Sistema de Gestión de CxC",
+    "titleManagement": "anagement", "titleSystem": "ystem",
+    "description": "El software ARMS automatiza los procesos Order-to-Cash, proporciona insights predictivos y da visibilidad en tiempo real a tus equipos de finanzas y cobranza. Opera internamente y obtén control total de tus operaciones de CxC.",
+    "coreCapabilities": "Capacidades Principales", "coreCapabilitiesDesc": "Todo lo que necesitas para transformar tus operaciones de cuentas por cobrar",
+    "dashboardTitle": "Visibilidad del Dashboard en Tiempo Real",
+    "dashboardDesc": "Acceso instantáneo a todas tus métricas de CxC en un dashboard unificado. Rastrea cobranzas, monitorea flujo de caja e identifica oportunidades de mejora.",
+    "dashboardFeatures": ["Pronóstico de flujo de caja", "Rendimiento de cobranza", "Análisis de exposición al riesgo", "Métricas de productividad del equipo"],
+    "dashboardLabels": { "dso": "DSO", "collectionRate": "Tasa de Cobranza", "cashFlow": "Flujo de Caja" },
+    "builtForRole": "Diseñado para tu Rol", "builtForRoleDesc": "Beneficios personalizados para cada miembro de tu equipo financiero",
+    "ctaTitle": "¿Listo para Transformar tus Operaciones de CxC?",
+    "ctaDesc": "Ve cómo el Software ARMS puede automatizar tus procesos Order-to-Cash y proporcionar la visibilidad que necesitas.",
+    "requestDemo": "Solicitar Demo",
+    "capabilities": {
+      "predictive": { "title": "Inteligencia Predictiva", "description": "Pronóstico impulsado por IA de DSO, comportamiento de pago y flujo de caja" },
+      "dso": { "title": "Seguimiento Basado en Eventos", "description": "Visibilidad de extremo a extremo desde la facturación hasta la aplicación de pagos" },
+      "reports": { "title": "Flujos de Trabajo Automatizados", "description": "Configura acciones activadas por eventos sin escribir una sola línea de código" },
+      "risk": { "title": "Reportes en Tiempo Real", "description": "Reportes personalizables y prediseñados, gráficos de antigüedad y KPIs en vivo" },
+      "alerts": { "title": "Gestión de Deudores 360°", "description": "Un registro unificado por cliente: términos de crédito, contactos, historial de comunicación, documentos" },
+      "performance": { "title": "Integración de Ecosistema", "description": "APIs bidireccionales para deudores, facturas, pagos y hitos." }
+    },
+    "personas": {
+      "cfo": { "role": "CFOs", "benefit": "Mejor pronóstico de flujo de caja y gestión de riesgos" },
+      "otc": { "role": "Gerentes de OTC", "benefit": "Operaciones más fluidas y menos errores manuales" },
+      "ar": { "role": "Especialistas de CxC", "benefit": "Prioridades claras y toma de decisiones más rápida" }
+    },
+    "pricingPreview": {
+      "title": "Precios Simples y Transparentes",
+      "subtitle": "Sin cargos ocultos. Precios predecibles que escalan con tu volumen de CxC.",
+      "essential": { "name": "Essential", "description": "Para equipos pequeños de CxC", "features": ["Automatización básica de CxC", "Soporte por email"], "cta": "Comenzar" },
+      "professional": { "name": "Professional", "badge": "Más Popular", "description": "Para operaciones en crecimiento", "features": ["Flujos avanzados y analítica", "Soporte prioritario"], "cta": "Comenzar" },
+      "enterprise": { "name": "Enterprise", "description": "Para CxC complejo y alto volumen", "features": ["Plataforma completa + integraciones personalizadas", "Gerente de éxito dedicado"], "cta": "Comenzar" },
+      "customQuote": "¿Quieres una cotización personalizada basada en tu volumen específico?",
+      "calculatePrice": "Calcula tu precio exacto"
+    }
+  },
+  "managed": {
+    "badge": "Servicio Administrado", "title": "Servicio Administrado de CxC",
+    "description": "ARMS actúa como tu equipo experto de CxC, operando el software en tu nombre. Manejamos cobranza, procesamiento de documentos legales y soporte in-plant—generando impacto inmediato sin aumentar plantilla.",
+    "servicesTitle": "Servicios Ofrecidos", "servicesDesc": "Soporte integral de CxC adaptado a las necesidades de tu negocio",
+    "impactTitle": "Impacto Comprobado", "impactDesc": "Resultados reales de organizaciones que confían en ARMS",
+    "comparisonTitle": "Software vs Servicios Administrados", "comparisonDesc": "Elige el enfoque que se adapte a tu organización",
+    "feature": "Característica", "builtForRole": "Diseñado para tu Rol",
+    "builtForRoleDesc": "Soporte experto adaptado a cada miembro de tu equipo financiero",
+    "ctaTitle": "¿Listo para Soporte Experto de CxC?",
+    "ctaDesc": "Deja que nuestro equipo maneje tus operaciones de CxC mientras te enfocas en hacer crecer tu negocio.",
+    "talkExperts": "Habla con Nuestros Expertos",
+    "idealFor": "Ideal para:",
+    "services": {
+      "fullAR": { "title": "Operaciones Completas de CxC", "description": "Gestión completa de operaciones de cuentas por cobrar para clientes privados y gubernamentales." },
+      "legal": { "title": "Servicios Legales", "description": "Manejo profesional de documentos legales y soporte de cobranza para asegurar cumplimiento y resultados." },
+      "inplant": { "title": "Soporte In-Plant", "description": "Soporte de operaciones de cobranza en sitio integrado en tu organización para una integración perfecta." }
+    },
+    "metrics": {
+      "dsoReduction": { "value": "33%", "label": "Reducción en DSO", "sublabel": "en los primeros tres meses" },
+      "latePayments": { "value": "25%", "label": "Menos Pagos Tardíos", "sublabel": "por trimestre" },
+      "disputeAccuracy": { "value": "95%", "label": "Precisión en Disputas", "sublabel": "tasa de resolución" },
+      "manualTasks": { "value": "58%", "label": "Reducción de Tareas Manuales", "sublabel": "en operaciones de CxC" }
+    },
+    "comparison": {
+      "predictiveAnalytics": "Analítica Predictiva", "realtimeDashboards": "Dashboards en Tiempo Real",
+      "automatedAlerts": "Alertas Automatizadas", "collectionsOps": "Operaciones de Cobranza",
+      "legalHandling": "Manejo de Documentos Legales", "onsiteSupport": "Soporte en Sitio",
+      "dedicatedTeam": "Equipo Dedicado de CxC"
+    },
+    "personas": {
+      "cfo": { "role": "CFOs", "benefit": "Visibilidad del flujo de caja en tiempo real, reconocimiento de ingresos predecible y confianza en decisiones estratégicas" },
+      "otc": { "role": "Gerentes de OTC", "benefit": "Control unificado del proceso, coordinación entre equipos y manejo de excepciones a escala" },
+      "ar": { "role": "Especialistas de CxC", "benefit": "Prioridades diarias claras, seguimientos automatizados y enfoque en lo que más importa" }
+    },
+    "howWeWork": {
+      "title": "Cómo Trabajamos Contigo",
+      "subtitle": "Desde la configuración inicial hasta el outsourcing — elige el nivel de involucramiento que se adapte a tu equipo",
+      "idealForLabel": "Ideal para:",
+      "onboarding": { "title": "Onboarding", "subtitle": "Soporte de incorporación para comenzar", "bullets": ["Configuración inicial de la plataforma", "Migración de datos históricos", "Capacitación del equipo"], "idealFor": "Primera vez con ARMS o migración de ERP", "badge": "4–6 SEMANAS" },
+      "fullOutsourcing": { "title": "Outsourcing", "subtitle": "Operamos tu CxC completamente", "bullets": ["Gestión end-to-end de CxC con equipo dedicado", "Reportes de progreso semanales", "Sin necesidad de contratar personal adicional"], "idealFor": "Sin equipo de CxC o alta rotación", "badge": "INICIO INMEDIATO" },
+      "coSourcing": { "title": "Co-Sourcing", "subtitle": "Apoyo para tu equipo actual", "bullets": ["Colaboración con tu equipo", "Casos complejos y manejo de excedentes", "Escalable según volumen mensual"], "idealFor": "Necesidad de escalamiento temporal", "badge": "FLEXIBLE" },
+      "recovery": { "title": "Recuperación", "subtitle": "Intervención para cuentas vencidas", "bullets": ["Análisis urgente del portafolio crítico", "Estrategia de recuperación intensiva", "Negociación y planes de pago"], "idealFor": "Crisis de liquidez o cuentas >90 días vencidas", "badge": "URGENTE" }
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "NUESTRA HISTORIA",
+      "headline": "No construimos ARMS en una sala de juntas. Lo construimos en las trincheras.",
+      "subheadline": "Comenzando como un equipo tercerizado de CxC en 2021, vivimos el caos de la cobranza en primera persona. Así que construimos la plataforma que deseábamos tener.",
+      "stats": { "founded": "Fundada", "cashRecovered": "Efectivo Recuperado", "companiesHelped": "Empresas Ayudadas" }
+    },
+    "origin": {
+      "badge": "DE DÓNDE VENIMOS",
+      "title": "De proveedor de servicios a plataforma",
+      "subtitle": "Nuestro viaje comenzó con una simple realización: las herramientas no estaban a la altura del problema.",
+      "timeline": {
+        "2021": { "phase": "LA REALIDAD", "headline": "El problema bajo la superficie", "description": "ARMS fue fundada con profundo conocimiento en logística. Vimos cuán complejo y manual era realmente el proceso de cuentas por cobrar—cada cliente siguiendo caminos diferentes con reglas diferentes." },
+        "2022": { "phase": "LA RESPUESTA HUMANA", "headline": "Construyendo el equipo", "description": "Construimos un equipo tercerizado de cuentas por cobrar para gestionar esta complejidad. Para hacer el trabajo más eficiente, comenzamos a crear herramientas internas." },
+        "2023": { "phase": "LA PLATAFORMA EMERGE", "headline": "Software que realmente funciona", "description": "Ese software interno se convirtió en ARMS. Funcionó tan bien para nuestro equipo que decidimos lanzarlo como plataforma para empresas de todas las industrias." },
+        "2026": { "phase": "HOY", "headline": "Profesionales construyendo para profesionales", "description": "ARMS ahora sirve a empresas en todo el mundo. Nuestro equipo combina profunda experiencia en CxC con tecnología de vanguardia. Hemos vivido el problema que estamos resolviendo." }
+      }
+    },
+    "believe": {
+      "badge": "NUESTROS PRINCIPIOS",
+      "title": "Lo que creemos",
+      "subtitle": "Estas no son solo palabras en una pared. Son los estándares a los que nos comprometemos cada día.",
+      "values": {
+        "practitioner": { "title": "Profesionales Primero", "description": "Contratamos expertos en CxC, no solo ingenieros de software. Cada función es probada por personas que realmente han perseguido pagos." },
+        "transparency": { "title": "Transparencia Radical", "description": "Sin cajas negras. Ves lo que vemos, cuando lo vemos. Tus datos son tuyos—punto." },
+        "partnership": { "title": "Asociación, No Solo Software", "description": "Tus métricas de éxito son nuestras métricas de éxito. Ganamos cuando recuperas más efectivo con menos esfuerzo." }
+      }
+    },
+    "builtByOC": {
+      "badge": "POR QUÉ SOMOS DIFERENTES",
+      "title": "Construido por gente de Order-to-Cash",
+      "description": "ARMS comenzó como un sistema interno usado diariamente por equipos de cuentas por cobrar. Cada función existe porque la necesitábamos nosotros mismos.",
+      "bullets": [
+        "15+ años gestionando operaciones de CxC",
+        "El equipo incluye ex-CFOs, contralores y gerentes de CxC",
+        "Seguimos operando servicios administrados—así nos mantenemos cerca del problema"
+      ]
+    },
+    "twoWays": {
+      "badge": "OPCIONES FLEXIBLES",
+      "title": "Una plataforma. Dos formas de trabajar.",
+      "subtitle": "La misma tecnología, los mismos resultados. Tú eliges el nivel de involucramiento.",
+      "headers": { "feature": "Característica", "software": "Software", "managed": "Servicios Administrados" },
+      "features": {
+        "predictiveAnalytics": "Analítica Predictiva",
+        "realtimeDashboards": "Dashboards en Tiempo Real",
+        "automatedWorkflows": "Flujos de Trabajo Automatizados",
+        "collectionsOps": "Operaciones de Cobranza",
+        "collectionsOpsSoftware": "Tu equipo",
+        "collectionsOpsManaged": "Nuestros expertos",
+        "legalHandling": "Manejo de Documentos Legales",
+        "onsiteSupport": "Soporte en Sitio",
+        "dedicatedTeam": "Equipo Dedicado de CxC"
+      },
+      "ctaText": "Explora cada solución en detalle.",
+      "softwareCta": "Solución de Software",
+      "managedCta": "Servicios Administrados"
+    },
+    "closing": {
+      "title": "¿Listo para ver cómo luce un sistema de CxC construido por profesionales?",
+      "subtitle": "Únete a más de 500 equipos financieros que pasaron del caos a la claridad.",
+      "cta": "Solicitar demo",
+      "pricingLink": "Ver precios →"
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "theReality": { "title": "La Realidad", "text": "ARMS fue fundada con profundo conocimiento en la industria logística, donde vimos cuán complejo y manual era realmente el proceso de cuentas por cobrar." },
+      "theProblem": { "title": "El Problema Bajo la Superficie", "text": "Cada contenedor, factura y cliente seguía un camino diferente, con reglas y expectativas diferentes. Lo que parecía un problema de facturación era en realidad un proceso de Order-to-Cash roto." },
+      "theResponse": { "title": "La Respuesta Humana", "text": "Construimos un equipo tercerizado de cuentas por cobrar para gestionar esta complejidad. Para hacer el trabajo más eficiente, el equipo creó software interno." },
+      "thePlatform": { "title": "La Plataforma Emerge", "text": "Ese software se convirtió en ARMS. Esto fue tan exitoso para nosotros que decidimos lanzarlo como plataforma para empresas de todas las industrias y regiones." }
+    },
+    "workWith": {
+      "title": "Una plataforma. Dos formas de trabajar.", "subtitle": "Siempre enfocados en claridad y resultados.",
+      "software": { "title": "Usa ARMS como software", "description": "Tu equipo opera la plataforma con control total y visibilidad.", "features": ["Acceso completo a la plataforma", "Tus flujos de trabajo, tus reglas", "Configuración autoservicio"] },
+      "managed": { "title": "Deja que ARMS lo opere contigo", "description": "Un equipo experto de CxC maneja las operaciones mientras tú mantienes visibilidad.", "features": ["Especialistas dedicados de CxC", "Resultados sin aumentar plantilla", "Transparencia total"] },
+      "learnMore": "Saber más"
+    },
+    "peopleToPlatform": {
+      "title": "Construido por gente de", "titleHighlight": "Order-to-Cash", "titleEnd": "",
+      "subtitle": "No teóricos. Profesionales.",
+      "description": "ARMS comenzó como un sistema interno usado diariamente por equipos de cuentas por cobrar.",
+      "dashboard": { "dso": "DSO", "collectionRate": "Tasa de Cobranza", "cashFlow": "Flujo de Caja" }
+    }
+  },
+  "partners": {
+    "hero": {
+      "title": "Construyamos Algo Juntos",
+      "subtitle": "Ya seas un consultor independiente o un gran integrador, hay un lugar para ti en el ecosistema de socios de ARMS. Elige el camino que se adapte a tu forma de trabajar.",
+      "cta": "Conviértete en Socio"
+    },
+    "stats": {
+      "levels": { "value": "3 niveles", "label": "De asociación con camino claro de crecimiento" },
+      "recurring": { "value": "Recurrente", "label": "Comisión en cada renovación" },
+      "onboarding": { "value": "48hrs", "label": "Tiempo promedio de incorporación de socios" },
+      "firstDeal": { "value": "60 días", "label": "Tiempo promedio para el primer cierre" }
+    },
+    "paths": {
+      "title": "Encuentra Tu Camino",
+      "subtitle": "Tres formas de asociarte con nosotros. Todas valen la pena.",
+      "whatYouDo": "Lo que harás",
+      "whatYouGet": "Lo que obtienes",
+      "registered": {
+        "name": "Socio Registrado",
+        "tagline": "Empieza simple. Crece desde aquí.",
+        "description": "Conoces empresas que luchan con la cobranza. Conéctalas con ARMS y gana cada vez que lo hagas. Sin certificaciones complejas, sin presión — solo una forma directa de agregar valor a tu red.",
+        "whatYouDo": ["Referir oportunidades y generar leads", "Hacer la primera introducción comercial", "Representar a ARMS en tu red"],
+        "whatYouGet": ["Comisión estándar por cada cierre", "Acceso a materiales de venta y presentación", "Registro de oportunidades para proteger tus leads", "Soporte comercial de nuestro equipo"],
+        "cta": "Comenzar"
+      },
+      "certified": {
+        "name": "Socio Certificado",
+        "tagline": "Ve más profundo. Construye una práctica real.",
+        "description": "Estás listo para hacer más que referir — quieres vender, implementar y dar soporte a ARMS como parte de tu oferta principal. Aquí es donde operan los socios de canal serios y donde están las mayores oportunidades.",
+        "whatYouDo": ["Ejecutar el ciclo de venta completo de principio a fin", "Implementar e incorporar clientes", "Mantener relaciones continuas con clientes"],
+        "whatYouGet": ["Nivel de comisión más alto", "Acceso compartido a leads de ARMS", "Canal de soporte prioritario", "Oportunidades de co-marketing", "Acceso al roadmap del producto"],
+        "cta": "Comenzar"
+      },
+      "strategic": {
+        "name": "Socio Estratégico",
+        "tagline": "Alineación al más alto nivel.",
+        "description": "Tienes la escala, la presencia de mercado y la ambición de crecer con ARMS a largo plazo. Los socios estratégicos no solo venden nuestro producto — ayudan a dar forma hacia dónde va. Si eso suena como tú, hablemos.",
+        "whatYouDo": ["Impulsar crecimiento predecible y de alto volumen", "Abrir nuevos mercados y segmentos", "Co-desarrollar soluciones con nuestro equipo"],
+        "whatYouGet": ["Estructura de comisión premium", "Exclusividad sectorial o regional", "Acceso al desarrollo conjunto de productos", "Gerente dedicado de éxito de socios", "Acceso anticipado a nuevas funciones y betas"],
+        "cta": "Hablemos"
+      }
+    },
+    "progression": {
+      "title": "Tu Camino de Crecimiento",
+      "subtitle": "Ve exactamente qué cambia a medida que creces con nosotros.",
+      "stops": {
+        "registered": { "name": "Registrado", "desc": "Empieza a ganar de inmediato" },
+        "certified": { "name": "Certificado", "desc": "Construye una práctica completa" },
+        "strategic": { "name": "Estratégico", "desc": "Da forma al ecosistema" }
+      },
+      "compareBtn": "Comparar todos los beneficios",
+      "table": {
+        "feature": "Característica",
+        "commissions": "Comisiones",
+        "leadsAndSales": "Leads y Ventas",
+        "support": "Soporte",
+        "marketing": "Marketing",
+        "productAccess": "Acceso al Producto",
+        "features": {
+          "standardCommission": "Comisión estándar",
+          "higherCommission": "Nivel de comisión más alto",
+          "premiumCommission": "Estructura de comisión premium",
+          "opportunityRegistration": "Registro de oportunidades",
+          "basicSalesMaterials": "Acceso a materiales de venta básicos",
+          "sharedLeadAccess": "Acceso compartido a leads de ARMS",
+          "exclusivity": "Exclusividad sectorial o regional",
+          "commercialSupport": "Soporte comercial",
+          "prioritySupport": "Canal de soporte prioritario",
+          "dedicatedManager": "Gerente dedicado de éxito de socios",
+          "coMarketing": "Oportunidades de co-marketing",
+          "jointDevelopment": "Desarrollo conjunto de productos",
+          "roadmapAccess": "Acceso al roadmap del producto",
+          "earlyAccess": "Acceso anticipado a nuevas funciones"
+        }
+      }
+    },
+    "map": {
+      "title": "Un Ecosistema en Crecimiento",
+      "subtitle": "Únete a socios en todas las geografías."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Todo lo que necesitas saber antes de dar el siguiente paso.",
+      "items": [
+        { "q": "¿Necesito experiencia en cuentas por cobrar para ser socio?", "a": "Para nada. Muchos de nuestros Socios Registrados más exitosos vienen de campos adyacentes como finanzas, consultoría de ERP o asesoría empresarial. Proporcionamos todo lo que necesitas para entender y comunicar el valor de ARMS a tus clientes. Si conoces empresas que luchan con la cobranza, ya vas por buen camino." },
+        { "q": "¿Qué tan rápido puedo empezar a ganar?", "a": "Como Socio Registrado puedes empezar a referir oportunidades inmediatamente después de completar una breve incorporación. La mayoría de los socios hacen su primera referencia dentro de las primeras dos semanas. Los Socios Certificados típicamente cierran su primer negocio dentro de los 60 días de certificación." },
+        { "q": "¿Cuál es el compromiso de tiempo para cada nivel de socio?", "a": "Los Socios Registrados pueden participar a su propio ritmo — no hay requisito mínimo de actividad para empezar. Los Socios Certificados se comprometen a objetivos mínimos de ventas y mantener personal capacitado. Los Socios Estratégicos operan bajo un plan de crecimiento conjunto con ARMS, lo que implica un compromiso más profundo y continuo." },
+        { "q": "¿Cómo funciona la estructura de comisiones?", "a": "Cada nivel de socio tiene su propio nivel de comisión, con niveles más altos ganando un mayor porcentaje por negocio cerrado. Las tasas de comisión específicas se comparten durante la conversación de incorporación con nuestro equipo de alianzas. Lo mantenemos transparente y competitivo." },
+        { "q": "¿Puedo subir mi nivel de socio con el tiempo?", "a": "Absolutamente — y lo alentamos activamente. Cada nivel está diseñado con incentivos claros para avanzar. Cuando estés listo para ir más profundo, nuestro equipo te guiará en la transición. No hay penalización por empezar como Registrado y crecer desde ahí." },
+        { "q": "¿Qué soporte brinda ARMS a los socios?", "a": "Depende de tu nivel. Los Socios Registrados obtienen acceso a materiales de venta y soporte comercial. Los Socios Certificados desbloquean soporte prioritario y co-marketing. Los Socios Estratégicos obtienen un gerente dedicado de éxito de socios y acceso anticipado a nuevas funciones. En cada nivel, no estás solo." },
+        { "q": "¿Qué pasa si mi mercado aún no está listado?", "a": "Esa es de hecho una de nuestras conversaciones favoritas. ARMS está creciendo activamente y cada nuevo mercado al que entramos comienza con un socio que creyó en él temprano. Si estás basado en algún lugar donde aún no estamos, contáctanos de todas formas — queremos escucharte. España, Colombia y Argentina ya están en nuestro roadmap, y más allá de eso, estamos abiertos. El socio correcto en el mercado correcto puede cambiarlo todo." }
+      ]
+    },
+    "modal": {
+      "title": "Comencemos",
+      "subtitle": "Cuéntanos un poco sobre ti y nos pondremos en contacto dentro de un día hábil.",
+      "firstName": "Nombre *",
+      "lastName": "Apellido *",
+      "email": "Correo de trabajo *",
+      "company": "Empresa *",
+      "role": "Tu rol *",
+      "rolePlaceholder": "ej. Director de Ventas, CEO",
+      "partnershipType": "Tipo de asociación *",
+      "options": {
+        "registered": "Socio Registrado",
+        "certified": "Socio Certificado",
+        "strategic": "Socio Estratégico",
+        "notSure": "Aún no estoy seguro"
+      },
+      "message": "Mensaje (opcional)",
+      "messagePlaceholder": "Cuéntanos sobre tu negocio y lo que buscas en una asociación",
+      "submit": "Enviar Mi Solicitud",
+      "submitting": "Enviando...",
+      "successTitle": "¡Solicitud recibida!",
+      "successMessage": "Nuestro equipo de alianzas se pondrá en contacto dentro de un día hábil.",
+      "errorTitle": "Información faltante",
+      "errorMessage": "Por favor completa todos los campos requeridos.",
+      "footer": "Nuestro equipo de alianzas se pondrá en contacto dentro de un día hábil."
+    }
+  },
+  "arCycle": {
+    "title": "El Ciclo de CxC: Seguimiento Basado en Eventos y Predicción con IA en Tiempo Real",
+    "description": "ARMS no solo muestra dónde estás. Predice cuándo ocurrirá cada siguiente paso y recalcula los plazos automáticamente cuando ocurren disputas, retrasos o cambios.",
+    "legend": { "completed": "Completado", "inProgress": "En Progreso", "predicted": "Predictivo", "exception": "Excepción" },
+    "alert": { "title": "Disputa Detectada", "description": "Factura #12847 - El cliente planteó una consulta de validación", "recalculating": "Recalculando...", "updated": "Línea de tiempo actualizada" },
+    "steps": {
+      "invoicing": { "name": "Facturación", "description": "Factura generada y enviada al cliente" },
+      "validation": { "name": "Validación", "description": "El cliente valida los detalles y montos de la factura" },
+      "submission": { "name": "Envío", "description": "Factura enviada al sistema de pago del cliente" },
+      "approval": { "name": "Aprobación", "description": "El cliente aprueba la factura para pago" },
+      "scheduling": { "name": "Programación", "description": "Pago programado en el ciclo de pago del cliente" },
+      "receipt": { "name": "Recepción", "description": "Pago recibido y registrado" },
+      "application": { "name": "Aplicación", "description": "Pago aplicado a la factura pendiente" }
+    },
+    "status": { "done": "✓ Hecho", "now": "Ahora", "issue": "Problema", "start": "Inicio", "day": "Día" },
+    "tooltip": { "aiPredicts": "IA predice:", "disputeResolution": "La disputa requiere resolución" },
+    "callouts": {
+      "realtime": { "title": "Estado en Tiempo Real", "description": "Visibilidad por cliente y por factura" },
+      "predictive": { "title": "Plazos Predictivos", "description": "Se adaptan automáticamente a los cambios" },
+      "visibility": { "title": "Visibilidad Completa", "description": "Desde facturación hasta aplicación" }
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "intro": "Este documento de Política de Privacidad establece los términos bajo los cuales ARMS Tech usa y protege la información proporcionada por sus usuarios al usar su sitio web y/o la aplicación de ARMS Tech.",
+    "infoCollected": { "title": "Información Recopilada", "content": "Nuestro sitio web y/o la plataforma ARMS Tech puede recopilar información personal como nombre, información de contacto como dirección de correo electrónico, y/o información demográfica. Asimismo, cuando sea necesario, se puede requerir información específica para procesar un pedido o llevar a cabo entrega o facturación." },
+    "cookies": { "title": "Cookies", "content1": "Una cookie se refiere a un archivo que se envía para solicitar permiso de almacenarse en tu computadora. Al aceptar este archivo, se crea, y la cookie entonces sirve para almacenar información sobre el tráfico web y también facilita futuras visitas a un sitio web recurrente. Otra función de las cookies es que permiten a los sitios web reconocerte individualmente y por lo tanto proporcionarte el mejor servicio personalizado.", "content2": "Nuestro sitio web usa cookies para identificar qué páginas se visitan y con qué frecuencia. Esta información se usa únicamente para análisis estadístico y luego se elimina permanentemente. Puedes eliminar las cookies en cualquier momento de tu computadora. Sin embargo, las cookies ayudan a proporcionar un mejor servicio de los sitios web. No dan acceso a información en tu computadora o sobre ti a menos que elijas proporcionarla directamente. Puedes aceptar o rechazar el uso de cookies. Sin embargo, la mayoría de los navegadores aceptan cookies automáticamente ya que ayudan a proporcionar un mejor servicio web. También puedes cambiar la configuración de tu computadora para rechazar cookies. Si las rechazas, es posible que no puedas usar algunos de nuestros servicios." },
+    "thirdParty": { "title": "Enlaces de Terceros", "content": "Este sitio web puede contener enlaces a otros sitios que pueden ser de tu interés. Una vez que hagas clic en estos enlaces y abandones nuestra página, ya no tenemos control sobre el sitio al que eres redirigido y por lo tanto no somos responsables de los términos, prácticas de privacidad o protección de tus datos en esos sitios de terceros. Dichos sitios están sujetos a sus propias políticas de privacidad, por lo que se recomienda que las revises para confirmar que estás de acuerdo con ellas." },
+    "control": { "title": "Control de Tu Información Personal", "content1": "En cualquier momento, puedes restringir la recopilación o uso de información personal proporcionada en nuestro sitio web. Cada vez que se te pida completar un formulario, como un formulario de registro de usuario, puedes marcar o desmarcar la opción de recibir información por correo electrónico. Si has elegido recibir nuestro boletín o publicidad, puedes cancelarlo en cualquier momento. Esta empresa no venderá, cederá ni distribuirá la información personal recopilada sin tu consentimiento, a menos que sea requerido por un juez a través de una orden judicial.", "content2": "ARMS Tech está comprometida con la seguridad de los datos de sus usuarios. Cuando te pedimos que completes campos de información personal mediante los cuales puedes ser identificado, lo hacemos asegurando que solo se usará de acuerdo con los términos de este documento. Sin embargo, ARMS Tech se reserva el derecho de cambiar los términos de esta Política de Privacidad en cualquier momento." }
+  },
+  "demoFlow": {
+    "stepIndicator": "Paso {{current}} de {{total}}",
+    "steps": {
+      "companySize": { "question": "¿Cuántos empleados tiene tu empresa?", "options": { "small": "1–50 empleados", "medium": "51–200 empleados", "large": "201–1,000 empleados", "enterprise": "1,000+ empleados" } },
+      "industry": { "question": "¿Qué industria describe mejor tu negocio?", "options": { "manufacturing": "Manufactura", "transportLogistics": "Transporte y Logística", "pharma": "Farmacéutica", "services": "Servicios Profesionales", "retail": "Retail y Bienes de Consumo", "other": "Otra" }, "otherPlaceholder": "Escribe tu industria..." },
+      "invoiceVolume": { "question": "¿Cuántas facturas procesan al mes?", "options": { "under500": "Menos de 500", "500to2000": "500–2,000", "2000to10000": "2,000–10,000", "over10000": "10,000+" } },
+      "delayReason": { "question": "¿Cuál es la razón principal por la que se retrasan los pagos?", "options": { "disputes": "Disputas y discrepancias de facturación", "followUp": "Falta de seguimiento oportuno", "visibility": "Poca visibilidad de facturas vencidas", "manualProcesses": "Demasiados procesos manuales", "customerBehavior": "Comportamiento de pago del cliente" } },
+      "currentTools": { "question": "¿Qué usan actualmente para gestionar CxC?", "options": { "erp": "Sistema ERP (SAP, Oracle, etc.)", "spreadsheets": "Hojas de cálculo", "arSoftware": "Software dedicado de CxC", "manual": "Mayormente procesos manuales" } },
+      "timeline": { "question": "¿Cuándo buscan mejorar su proceso de CxC?", "options": { "immediate": "Inmediatamente", "1to3months": "Dentro de 1–3 meses", "3to6months": "Dentro de 3–6 meses", "exploring": "Solo explorando" } }
+    },
+    "contactForm": { "title": "Ya casi", "subtitle": "Indícanos dónde enviar tu demo personalizado.", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo de trabajo", "company": "Empresa", "submit": "Ver mi demo" },
+    "success": { "title": "Gracias", "message": "Hemos recibido tu solicitud. Nuestro equipo se comunicará pronto para agendar tu demo personalizado.", "close": "Cerrar" }
+  },
+  "salesForm": {
+    "title": "Hablar con Ventas", "subtitle": "Cuéntanos tus necesidades y nuestro equipo se pondrá en contacto.",
+    "firstName": "Nombre", "lastName": "Apellido", "email": "Correo de trabajo", "company": "Empresa",
+    "role": "Tu rol", "message": "Mensaje", "optional": "opcional", "submit": "Hablar con ventas",
+    "responseTime": "Nuestro equipo te contactará dentro de un día hábil.",
+    "success": { "title": "Mensaje enviado", "message": "Gracias por contactarnos. Nuestro equipo te responderá dentro de un día hábil.", "close": "Cerrar" }
+  },
+  "contact": {
+    "hero": { "title": "Iniciemos una conversación", "subtitle": "Ya sea que quieras ver ARMS en acción o explorar cómo podemos apoyar tu operación de Cuentas por Cobrar, nuestro equipo está aquí para ayudar." },
+    "info": { "title": "Información de Contacto", "emailLabel": "Correo electrónico", "phoneLabel": "Teléfono", "locationsLabel": "Ubicaciones", "locationsNote": "Operando en diversas industrias y geografías." },
+    "form": { "title": "Envíanos un mensaje", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo corporativo", "company": "Empresa", "role": "Rol", "optional": "opcional", "message": "Mensaje", "submit": "Hablar con nuestro equipo", "responseTime": "Nuestro equipo te responderá dentro de un día hábil.", "successTitle": "Mensaje enviado", "successMessage": "Gracias por contactarnos. Nuestro equipo te responderá dentro de un día hábil." },
+    "cta": { "title": "¿Prefieres una experiencia guiada?", "button": "Solicitar Demo" }
+  },
+  "pricing": {
+    "header": {
+      "title": "Precios Indicativos de Software",
+      "subtitle": "Precios predecibles y transparentes. Sin cargos ocultos.",
+      "managedLabel": "¿Interesado en precios de Servicios Administrados?",
+      "managedLink": "Saber más"
+    },
+    "stepLabels": { "volume": "Volumen", "aging": "Antigüedad", "operations": "Operaciones", "pricing": "Precios" },
+    "steps": {
+      "continue": "Continuar", "back": "Volver", "seePricing": "Ver precios",
+      "volume": { "title": "Tu actividad mensual" },
+      "aging": { "title": "Cómo envejece tu cartera", "totalLabel": "documentos totales", "distribution": "Distribución del portafolio" },
+      "operations": { "title": "Tu operación actual" }
+    },
+    "progress": { "fieldsToComplete": "{{count}} campos por completar", "almostThere": "Casi listo...", "ready": "¡Listo!", "pricesUpdate": "Los precios se actualizan automáticamente" },
+    "inputs": {
+      "invoices": "Facturas mensuales promedio", "invoicesHelp": "Volumen mensual típico",
+      "recovery": "Monto mensual de recuperación", "recoveryHelp": "Total de CxC que gestionas mensualmente",
+      "totalDocuments": "Total de documentos en cartera", "totalDocumentsHelp": "Todas las facturas activas y vencidas",
+      "peakThreshold": "Umbral de pico de facturas", "peakThresholdHelp": "Volumen máximo de facturas esperado en meses pico",
+      "debtors": "Deudores activos", "debtorsHelp": "Número de clientes únicos",
+      "dso": "Días de ventas pendientes", "dsoHelp": "Período promedio de cobranza en días",
+      "completed": "completados"
+    },
+    "aging": { "title": "Desglose de antigüedad", "current": "Vigente", "1to30": "1–30 días", "31to60": "31–60 días", "61to90": "61–90 días", "90plus": "+90 días", "valid": "Coincide con el total de documentos", "under": "{{diff}} documentos restantes", "over": "{{diff}} documentos sobre el total" },
+    "tiers": { "essential": "Essential", "professional": "Professional", "enterprise": "Enterprise" },
+    "cards": {
+      "costPerInvoice": "Costo por factura", "getStarted": "Comenzar", "contactSales": "Hablar con ventas",
+      "mostPopular": "Más Popular", "perMonth": "/mes",
+      "bestFor": { "essential": "Ideal para equipos pequeños", "professional": "Ideal para operaciones en crecimiento", "enterprise": "Ideal para escala" },
+      "tierMeta": {
+        "essential": { "tagline": "Empieza rápido", "valueLine": "Punto de entrada más accesible", "bullets": ["Flujos de CxC principales y dashboard", "Seguimiento del ciclo de vida de facturas", "Soporte multi-moneda"], "socialProof": "Ideal para equipos de menos de 5 usuarios" },
+        "professional": { "tagline": "Diseñado para equipos en crecimiento", "valueLine": "Mejor valor por función", "bullets": ["Todo en Essential", "Motor de automatización y reglas de negocio", "Analítica de DSO y reportes predictivos"], "socialProof": "Más elegido por operaciones medianas" },
+        "enterprise": { "tagline": "Potencia total, totalmente administrado", "valueLine": "Máximo ROI a escala", "bullets": ["Todo en Professional", "Acceso completo a API", "Reportes personalizados"], "socialProof": "Preferido por portafolios de alto volumen" }
+      },
+      "features": {
+        "coreWorkflows": "Flujos de CxC Principales y Dashboard",
+        "multiCurrency": "Soporte Multi-moneda",
+        "invoiceTracking": "Seguimiento del Ciclo de Vida de Facturas",
+        "automationEngine": "Motor de Automatización y Reglas de Negocio",
+        "dsoAnalytics": "Analítica de DSO y Reportes Predictivos",
+        "scheduledExports": "Exportaciones Programadas e Integraciones",
+        "apiAccess": "API de Deudores, Facturas y Pagos",
+        "tailoredReporting": "Reportes Personalizados"
+      }
+    },
+    "features": { "coreWorkflows": "Flujos de CxC principales", "automationRules": "Reglas de automatización", "portfolioVisibility": "Visibilidad del portafolio", "predictiveTimelines": "Líneas de tiempo predictivas", "supportLevel": "Soporte dedicado" },
+    "roi": { "title": "Impacto operacional", "hourlyRate": "Costo por hora del equipo", "currentRate": "Tasa de cobranza actual", "targetRate": "Mejora de eficiencia objetivo", "current": "Actual", "withARMS": "Con ARMS", "savings": "Ahorro", "hoursCollections": "Horas manuales en cobranza", "collectionEfficiency": "Visibilidad del portafolio", "dsoReduction": "Potencial de mejora en DSO", "annualValue": "Estimación de ganancia anual de eficiencia", "basedOnInputs": "Basado en tus datos", "adjustAssumptions": "Ajustar supuestos", "payback": "ROI en {{months}} meses", "days": "días" },
+    "trust": { "soc2": "Cumple SOC 2", "noCard": "Sin tarjeta de crédito", "secure": "Encriptación 256-bit" },
+    "cta": { "title": "Agenda una llamada", "button": "Solicitar demo" },
+    "contactModal": {
+      "title": "¡Nuestro equipo se pondrá en contacto!",
+      "thankYou": "¡Gracias!",
+      "thankYouDesc": "Nuestro equipo se pondrá en contacto en un día hábil.",
+      "close": "Cerrar",
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Email corporativo",
+      "company": "Empresa",
+      "phone": "Teléfono (opcional)",
+      "selectedPlan": "Plan seleccionado",
+      "price": "Precio",
+      "submit": "Contactar",
+      "disclaimer": "Nuestro equipo se pondrá en contacto en un día hábil."
+    }
+  }
+}

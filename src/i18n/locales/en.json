@@ -1,0 +1,1015 @@
+{
+  "nav": {
+    "theChallenge": "The Challenge",
+    "solutions": "Solutions",
+    "softwareSolution": "Software Solution",
+    "softwareSolutionDesc": "Automate AR with predictive insights",
+    "managedServices": "Managed Service",
+    "managedServicesDesc": "Expert AR team without the headcount",
+    "industries": "Industries",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "signIn": "Sign In",
+    "getDemo": "Get a Demo",
+    "contact": "Contact",
+    "pricing": "Pricing",
+    "menu": "Menu"
+  },
+  "hero": {
+    "headline1": "Accounts Receivable",
+    "headline2": "Leaves You Guessing.",
+    "headline3": "Let's Change That.",
+    "subheadline": "Visibility, automation, and security for AR teams that can't afford to slow down.",
+    "cta": "Get a Demo →",
+    "ctaSecondary": "See How It Works →",
+    "socialProof": "Helping finance teams collect faster, every day"
+  },
+  "proof": {
+    "cashRecovered": { "value": "$2.4B+", "label": "Cash recovered", "description": "Identified and collected" },
+    "dsoReduction": { "value": "30%", "label": "DSO reduction", "description": "Average improvement" },
+    "roi": { "value": "10x", "label": "ROI", "description": "Within first year" },
+    "predictability": { "value": "99%", "label": "Predictability", "description": "Cashflow Forecasting" }
+  },
+  "customers": {
+    "title": "Some of our Customers"
+  },
+  "problem": {
+    "badge": "The Reality",
+    "title": "Accounts Receivables is harder than it should be",
+    "description": "Managing the journey from invoice to payment means navigating complexity every day. Different customers, different rules, different expectations. Traditional tools weren't built for this.",
+    "fragmentedSystems": {
+      "title": "Fragmented systems",
+      "description": "Order-to-Cash lives across multiple tools. Data is scattered, context is lost, and no one has the full picture."
+    },
+    "everyCustomer": {
+      "title": "Every customer is different",
+      "description": "Payment terms, credit limits, communication preferences—one approach never fits all. But manual customization doesn't scale."
+    },
+    "manualWork": {
+      "title": "Manual work dominates",
+      "description": "Teams spend hours chasing updates, sending reminders, and updating spreadsheets instead of solving real problems."
+    },
+    "lackVisibility": {
+      "title": "Lack of visibility",
+      "description": "Without a clear view of what's happening—and what's coming—teams are always reacting instead of planning."
+    }
+  },
+  "solution": {
+    "badge": "The ARMS Solution",
+    "title": "A connecting layer for your entire process",
+    "description": "ARMS doesn't replace what you have—it brings it all together. Real-time visibility, intelligent guidance, and coordinated action across every customer and every team.",
+    "seeEverything": {
+      "title": "See everything",
+      "description": "Real-time visibility across all customers, all stages, all teams—in one unified view."
+    },
+    "connectDots": {
+      "title": "Connect the dots",
+      "description": "Link events, actions, and outcomes. Understand cause and effect across your portfolio."
+    },
+    "knowNext": {
+      "title": "Know what's next",
+      "description": "Clear guidance on priorities and next steps—so your team always knows where to focus."
+    },
+    "cta": "See ARMS in Action"
+  },
+  "pillars": {
+    "badge": "Why ARMS",
+    "title": "Built around what matters most",
+    "description": "Four principles that guide everything we build.",
+    "customization": {
+      "title": "Customization",
+      "description": "Every customer is different. ARMS respects that."
+    },
+    "collaboration": {
+      "title": "Collaboration",
+      "description": "Finance and collections aligned around one shared view."
+    },
+    "automation": {
+      "title": "Automation",
+      "description": "Repetitive work moves forward automatically."
+    },
+    "predictability": {
+      "title": "Predictability",
+      "description": "Clear next steps, fewer surprises."
+    }
+  },
+  "roles": {
+    "badge": "Built for Every Role",
+    "title": "Everyone gets what they need",
+    "description": "From the C-suite to the collections desk, ARMS delivers clarity at every level.",
+    "cfo": {
+      "title": "CFO & Finance Leaders",
+      "benefits": ["Real-time cash flow visibility", "Predictable revenue recognition", "Strategic decision confidence"],
+      "quote": "Finally, I can see what's coming—not just what's happened."
+    },
+    "otc": {
+      "title": "OTC Managers",
+      "benefits": ["Unified process control", "Cross-team coordination", "Exception handling at scale"],
+      "quote": "One place to manage it all, instead of juggling ten systems."
+    },
+    "ar": {
+      "title": "AR Specialists",
+      "benefits": ["Clear daily priorities", "Automated follow-ups", "Focus on what matters"],
+      "quote": "I spend time on real problems, not chasing status updates."
+    }
+  },
+  "experience": {
+    "badge": "The Experience",
+    "title": "How it feels to use ARMS",
+    "description": "Beyond features and functions—this is about how your work changes for the better.",
+    "lessStress": {
+      "title": "Less stress",
+      "description": "See issues before they become problems. Work proactively, not reactively."
+    },
+    "moreControl": {
+      "title": "More control",
+      "description": "Know exactly where things stand—at any moment, for any customer."
+    },
+    "confidentDecisions": {
+      "title": "Confident decisions",
+      "description": "Data-driven insights that help you prioritize what matters most."
+    },
+    "betterTeamwork": {
+      "title": "Better teamwork",
+      "description": "Everyone on the same page, working toward the same goals."
+    }
+  },
+  "cta": {
+    "title": "Ready to bring clarity to your Accounts Receivables?",
+    "description": "Join finance teams who've moved from chaos to clarity. See how ARMS can work for your organization.",
+    "getDemo": "Get a Demo",
+    "talkSales": "Talk to Sales",
+    "noCommitment": "No commitment required. See ARMS in action in 30 minutes."
+  },
+  "footer": {
+    "product": "Product",
+    "industries": "Industries",
+    "pricing": "Pricing",
+    "careers": "Careers",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "© 2024 ARMS. All rights reserved."
+  },
+  "customers": {
+    "title": "Trusted by finance teams worldwide"
+  },
+  "careers": {
+    "hero": {
+      "title1": "Build something that",
+      "title2": "matters",
+      "description": "We solve real problems for finance teams around the world. Here, you'll have the freedom to contribute meaningfully, work on things that matter, and grow alongside people who care about craft.",
+      "tellUs": "Tell us where you fit",
+      "openPositions": "Open positions"
+    },
+    "whyWork": {
+      "title": "Why work at ARMS",
+      "description": "What makes this place different.",
+      "realProblems": {
+        "title": "Real problems, real impact",
+        "description": "Every feature you build is used by teams managing millions in receivables."
+      },
+      "autonomy": {
+        "title": "Autonomy and trust",
+        "description": "We hire capable people and give them room to do their best work."
+      },
+      "smallTeams": {
+        "title": "Small teams, high responsibility",
+        "description": "No layers of approval. You own your work from idea to production."
+      },
+      "learning": {
+        "title": "Continuous learning",
+        "description": "Work alongside people who care about craft and getting better."
+      }
+    },
+    "alwaysOpen": {
+      "badge": "Always open",
+      "title": "Great talent doesn't always fit predefined roles",
+      "description": "If you think you could contribute to ARMS, tell us how. We're always open to meeting people who think differently and want to build meaningful systems.",
+      "cta": "Tell us where you fit"
+    },
+    "positions": {
+      "title": "Open positions",
+      "description": "Current opportunities to join the team.",
+      "viewRole": "View role",
+      "fullStack": {
+        "title": "Full Stack Developer",
+        "location": "Madrid, Spain",
+        "type": "Full-time",
+        "description": "Work across the stack to build scalable tools that power the Order-to-Cash process."
+      },
+      "arSpecialist": {
+        "title": "Accounts Receivable Specialist",
+        "location": "Mexico City, Mexico",
+        "type": "Full-time",
+        "description": "Manage and optimize real accounts receivable workflows using ARMS for global clients."
+      }
+    },
+    "openApplication": {
+      "backLink": "Back to Careers",
+      "badge": "Always open",
+      "title": "Tell us how you would contribute",
+      "description": "We're always open to meeting people who think critically, take ownership, and want to build meaningful systems. You don't need to fit a predefined role to belong here.",
+      "valuesTitle": "What we value",
+      "values": {
+        "ownership": {
+          "title": "Ownership over tasks and outcomes",
+          "description": "You take responsibility for your work from start to finish."
+        },
+        "ambiguity": {
+          "title": "Comfort with ambiguity",
+          "description": "You can navigate unclear situations and find your own path."
+        },
+        "curiosity": {
+          "title": "Curiosity and learning",
+          "description": "You want to understand how things work and why."
+        },
+        "operational": {
+          "title": "Respect for real operational work",
+          "description": "You appreciate the complexity of day-to-day business operations."
+        }
+      },
+      "stepsTitle": "How this application works",
+      "steps": [
+        "Upload your CV",
+        "Tell us what you think you'd be good at",
+        "Share what you want to build or learn"
+      ],
+      "stepsNote": "No pressure. No expectations of perfection."
+    },
+    "form": {
+      "fullName": "Full name",
+      "fullNamePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "location": "Location",
+      "locationPlaceholder": "City, Country",
+      "uploadCV": "Upload CV",
+      "uploadPrompt": "Click to upload or drag and drop",
+      "uploadFormats": "PDF, DOC, DOCX up to 10MB",
+      "contribution": "What do you think you would be good at at ARMS?",
+      "contributionPlaceholder": "Tell us about your skills, what you'd like to work on, and how you could contribute...",
+      "whyInterested": "Tell us why you're interested (optional)",
+      "whyInterestedPlaceholder": "What draws you to this",
+      "role": "role",
+      "opportunity": "opportunity",
+      "anythingElse": "Anything else you'd like us to know? (optional)",
+      "anythingElsePlaceholder": "Portfolio links, availability, or anything else relevant...",
+      "anythingElseOpenPlaceholder": "Portfolio links, availability, what you want to learn, or anything else relevant...",
+      "submit": "Submit application",
+      "submitting": "Submitting...",
+      "successTitle": "Thanks for applying",
+      "successMessage": "We appreciate you taking the time to reach out. We read every application carefully and will get back to you if there's a good fit.",
+      "errorTitle": "Missing information",
+      "errorMessage": "Please fill in all required fields and upload your CV.",
+      "invalidFileTitle": "Invalid file type",
+      "invalidFileMessage": "Please upload a PDF, DOC, or DOCX file.",
+      "fileTooLargeTitle": "File too large",
+      "fileTooLargeMessage": "Please upload a file smaller than 10MB.",
+      "receivedTitle": "Application received",
+      "receivedMessage": "Thank you for your interest. We'll be in touch soon."
+    },
+    "jobPages": {
+      "backAll": "All positions",
+      "apply": "Apply for this role",
+      "sections": {
+        "about": "About the role",
+        "whatYoullDo": "What you'll do",
+        "whatWeLookFor": "What we look for",
+        "howWeWork": "How we work"
+      },
+      "department": {
+        "operations": "Operations",
+        "engineering": "Engineering"
+      },
+      "howWeWorkBody": "We value ownership, autonomy, and collaboration. You'll have the freedom to make decisions and the responsibility that comes with it. We focus on solving real-world problems for real users—no busywork, no theater.",
+      "roles": {
+        "fullStack": {
+          "about": "We're looking for a Full Stack Developer to help build and scale the tools that power our Order-to-Cash platform. You'll work across the entire stack—from crafting intuitive interfaces to designing robust systems. This is a hands-on role where you'll have real ownership over features that finance teams rely on every day.",
+          "whatYoullDo": [
+            "Build and maintain features across our frontend and backend",
+            "Design and implement APIs that handle complex financial workflows",
+            "Collaborate with product and operations teams to understand real user needs",
+            "Improve system reliability, performance, and developer experience",
+            "Participate in code reviews and help maintain high code quality standards"
+          ],
+          "whatWeLookFor": [
+            "3+ years of experience building web applications",
+            "Strong proficiency in TypeScript and React",
+            "Experience with relational databases and API design",
+            "Comfort working in a fast-moving, ownership-driven environment",
+            "Clear communication and a collaborative mindset"
+          ]
+        },
+        "arSpecialist": {
+          "about": "We're looking for an Accounts Receivable Specialist to join our operations team and manage AR workflows for global clients. You'll be the expert who ensures invoices get paid, disputes are resolved, and cash flow stays healthy. Using ARMS as your primary tool, you'll bring structure and efficiency to complex customer accounts.",
+          "whatYoullDo": [
+            "Manage end-to-end accounts receivable processes for assigned client portfolios",
+            "Monitor aging reports and prioritize collection activities",
+            "Resolve billing disputes and discrepancies with customers",
+            "Maintain accurate records and documentation in ARMS",
+            "Collaborate with client finance teams to improve payment processes"
+          ],
+          "whatWeLookFor": [
+            "2+ years of experience in accounts receivable or credit & collections",
+            "Strong attention to detail and organizational skills",
+            "Excellent communication skills in English and Spanish",
+            "Comfort with technology and learning new systems quickly",
+            "A proactive, problem-solving mindset"
+          ]
+        }
+      }
+    }
+  },
+  "industries": {
+    "title": "Order-to-Cash Built for",
+    "titleHighlight": "Any Industry",
+    "agnosticMessage": "ARMS is industry-agnostic and works across all geographies. These industries represent where we have the deepest experience.",
+    "collectionChallenges": "Collection Challenges",
+    "averageDSO": "Average DSO",
+    "dsoWithARMS": "DSO with ARMS",
+    "averageDSOTooltip": "How many days on average it takes for you to get paid",
+    "armsDSOTooltip": "Your improved payment timeline with ARMS",
+    "trustedBy": "Trusted by:",
+    "seeInAction": "See ARMS in Action",
+    "exploreHow": "Explore How ARMS Fits Your Industry",
+    "exploreIndustriesShort": "Explore Industries",
+    "transportLogistics": "Transport & Logistics",
+    "pharma": "Pharma",
+    "industrial": "Industrial",
+    "consumerGoods": "Consumer Goods",
+    "professionalServices": "Professional Services",
+    "anyIndustry": {
+      "title": "Any Industry with an AR Problem",
+      "industryAvgDSO": "Industry Average DSO",
+      "withARMS": "With ARMS",
+      "days": "days",
+      "badge": "30% average DSO reduction across all industries",
+      "stat1Label": "Portfolio managed",
+      "stat2Label": "Industries served",
+      "stat3Label": "Average DSO reduction",
+      "closingText": "Don't see your industry? ARMS works wherever invoices do.",
+      "cta": "Talk to Our Team"
+    },
+    "challenges": {
+      "transport1": "Over 60% of payment delays are caused by missing or incorrect Bill of Lading or Proof of Delivery",
+      "transport2": "High invoice volumes with frequent disputes tied to shortages, damages, or accessorial charges",
+      "transport3": "Multi-party billing creates fragmented ownership of payment follow-up",
+      "pharma1": "Chargebacks can represent up to 10% of gross revenue and require manual validation",
+      "pharma2": "Payments depend on contract pricing accuracy and multi-step approvals",
+      "pharma3": "Small pricing or compliance errors often delay payment by weeks",
+      "industrial1": "Payments tied to delivery acceptance or project milestones",
+      "industrial2": "Distributor networks reduce visibility into who controls payment",
+      "industrial3": "Over 10% of receivables are typically overdue beyond 90 days",
+      "consumer1": "More than 50% of B2B invoices are paid late at least once",
+      "consumer2": "Retail deductions and chargebacks require constant manual handling",
+      "consumer3": "High invoice volumes make prioritization difficult",
+      "professional1": "Scope creep causes invoice disputes in over 40% of consulting engagements, freezing payment approvals",
+      "professional2": "Multi-level client approval chains delay payments 15–20 days beyond agreed terms on average",
+      "professional3": "Relationship-driven culture discourages enforcement, leaving 30% of overdue invoices unchallenged past 60 days"
+    }
+  },
+  "software": {
+    "badge": "Software Solution",
+    "title": "AR Management System",
+    "titleManagement": "anagement",
+    "titleSystem": "ystem",
+    "description": "ARMS software automates Order-to-Cash processes, provides predictive insights, and gives real-time visibility to your finance and collections teams. Operate internally and gain full control of your AR operations.",
+    "coreCapabilities": "Core Capabilities",
+    "coreCapabilitiesDesc": "Everything you need to transform your accounts receivable operations",
+    "dashboardTitle": "Real-time Dashboard Visibility",
+    "dashboardDesc": "Get instant access to all your AR metrics in one unified dashboard. Track collections, monitor cash flow, and identify opportunities for improvement.",
+    "dashboardFeatures": ["Cash flow forecasting", "Collections performance", "Risk exposure analysis", "Team productivity metrics"],
+    "dashboardLabels": { "dso": "DSO", "collectionRate": "Collection Rate", "cashFlow": "Cash Flow" },
+    "builtForRole": "Built for Your Role",
+    "builtForRoleDesc": "Tailored benefits for every member of your finance team",
+    "ctaTitle": "Ready to Transform Your AR Operations?",
+    "ctaDesc": "See how ARMS Software can automate your Order-to-Cash processes and provide the visibility you need.",
+    "requestDemo": "Request a Demo",
+    "capabilities": {
+      "predictive": { "title": "Predictive Intelligence", "description": "AI-driven forecasting of DSO, payment behavior, and cash flow" },
+      "dso": { "title": "Event-Based Tracking", "description": "End-to-end visibility from billing to payment application" },
+      "reports": { "title": "Automated Workflows", "description": "Configure event-triggered actions without writing a single line of code" },
+      "risk": { "title": "Real-Time Reporting", "description": "Customizable & pre-built reports, aging charts, and live KPIs" },
+      "alerts": { "title": "360° Debtor Management", "description": "A unified record per customer: credit terms, contacts, communication history, documents" },
+      "performance": { "title": "Ecosystem Integration", "description": "Bidirectional APIs for debtors, invoices, payments, and milestones." }
+    },
+    "personas": {
+      "cfo": { "role": "CFOs", "benefit": "Better cash flow forecasting and risk management" },
+      "otc": { "role": "OTC Managers", "benefit": "Smoother operations and fewer manual errors" },
+      "ar": { "role": "AR Specialists", "benefit": "Clear priorities and faster decision-making" }
+    },
+    "pricingPreview": {
+      "title": "Simple, Transparent Pricing",
+      "subtitle": "No hidden fees. Predictable pricing that scales with your AR volume.",
+      "essential": { "name": "Essential", "description": "For small AR teams", "features": ["Core AR automation", "Email support"], "cta": "Get Started" },
+      "professional": { "name": "Professional", "badge": "Most Popular", "description": "For growing operations", "features": ["Advanced workflows & analytics", "Priority support"], "cta": "Get Started" },
+      "enterprise": { "name": "Enterprise", "description": "For complex, high-volume AR", "features": ["Full platform + custom integrations", "Dedicated success manager"], "cta": "Get Started" },
+      "customQuote": "Want a custom quote based on your specific volume?",
+      "calculatePrice": "Calculate your exact price"
+    }
+  },
+  "managed": {
+    "badge": "Managed Service",
+    "title": "AR Managed Service",
+    "description": "ARMS acts as your expert AR team, operating the software on your behalf. We handle collections, legal document processing, and inplant support—bringing immediate impact without adding headcount.",
+    "servicesTitle": "Services Provided",
+    "servicesDesc": "Comprehensive AR support tailored to your business needs",
+    "impactTitle": "Proven Impact",
+    "impactDesc": "Real results from organizations that trust ARMS",
+    "comparisonTitle": "Software vs Managed Services",
+    "comparisonDesc": "Choose the approach that fits your organization",
+    "feature": "Feature",
+    "builtForRole": "Built for Your Role",
+    "builtForRoleDesc": "Expert support tailored to every member of your finance team",
+    "ctaTitle": "Ready for Expert AR Support?",
+    "ctaDesc": "Let our team handle your AR operations while you focus on growing your business.",
+    "talkExperts": "Talk to Our Experts",
+    "services": {
+      "fullAR": { "title": "Full AR Operations", "description": "Complete accounts receivable operations management for both private and government clients." },
+      "legal": { "title": "Legal Services", "description": "Professional legal document handling and collections support to ensure compliance and results." },
+      "inplant": { "title": "Inplant Support", "description": "On-site collections operations support embedded within your organization for seamless integration." }
+    },
+    "metrics": {
+      "dsoReduction": { "value": "33%", "label": "Reduction in DSO", "sublabel": "within the first three months" },
+      "latePayments": { "value": "25%", "label": "Fewer Late Payments", "sublabel": "per quarter" },
+      "disputeAccuracy": { "value": "95%", "label": "Dispute Accuracy", "sublabel": "resolution rate" },
+      "manualTasks": { "value": "58%", "label": "Reduction in Manual Tasks", "sublabel": "in AR operations" }
+    },
+    "comparison": {
+      "predictiveAnalytics": "Predictive Analytics",
+      "realtimeDashboards": "Real-time Dashboards",
+      "automatedAlerts": "Automated Alerts",
+      "collectionsOps": "Collections Operations",
+      "legalHandling": "Legal Document Handling",
+      "onsiteSupport": "On-site Support",
+      "dedicatedTeam": "Dedicated AR Team"
+    },
+    "personas": {
+      "cfo": { "role": "CFOs", "benefit": "Real-time cash flow visibility, predictable revenue recognition, and strategic decision confidence" },
+      "otc": { "role": "OTC Managers", "benefit": "Unified process control, cross-team coordination, and exception handling at scale" },
+      "ar": { "role": "AR Specialists", "benefit": "Clear daily priorities, automated follow-ups, and focus on what matters most" }
+    },
+    "howWeWork": {
+      "title": "How We Work With You",
+      "subtitle": "From first setup to full outsourcing — choose the level of involvement that fits your team",
+      "idealForLabel": "Ideal for:",
+      "onboarding": {
+        "title": "Onboarding",
+        "subtitle": "Onboarding support to get started",
+        "bullets": ["Initial platform setup and configuration", "Historical data migration", "Team training"],
+        "idealFor": "First time with ARMS or ERP migration",
+        "badge": "4–6 WEEKS"
+      },
+      "fullOutsourcing": {
+        "title": "Full Outsourcing",
+        "subtitle": "We operate your AR completely",
+        "bullets": ["End-to-end AR management with dedicated team", "Weekly progress reports", "No need to hire additional staff"],
+        "idealFor": "No AR team or high turnover",
+        "badge": "IMMEDIATE START"
+      },
+      "coSourcing": {
+        "title": "Co-Sourcing",
+        "subtitle": "Support for your current team",
+        "bullets": ["Collaboration with your team", "Complex cases and overflow handling", "Scalable based on monthly volume"],
+        "idealFor": "Need temporary scaling",
+        "badge": "FLEXIBLE"
+      },
+      "recovery": {
+        "title": "Recovery",
+        "subtitle": "Intervention for overdue accounts",
+        "bullets": ["Urgent critical portfolio analysis", "Intensive recovery strategy", "Negotiation and payment plans"],
+        "idealFor": "Liquidity crisis or accounts >90 days overdue",
+        "badge": "URGENT"
+      }
+    }
+  },
+  "about": {
+    "hero": {
+      "badge": "OUR STORY",
+      "headline": "We didn't build ARMS in a boardroom. We built it in the trenches.",
+      "subheadline": "Starting as an outsourced AR team in 2021, we experienced the chaos of collections firsthand. So we built the platform we wished we had.",
+      "stats": { "founded": "Founded", "cashRecovered": "Cash Recovered", "companiesHelped": "Companies Helped" }
+    },
+    "origin": {
+      "badge": "WHERE WE CAME FROM",
+      "title": "From service provider to platform",
+      "subtitle": "Our journey started with a simple realization: the tools didn't match the problem.",
+      "timeline": {
+        "2021": { "phase": "THE REALITY", "headline": "The problem beneath the surface", "description": "ARMS was founded with deep knowledge in logistics. We saw how complex and manual accounts receivable truly was—every customer following different paths with different rules." },
+        "2022": { "phase": "THE HUMAN RESPONSE", "headline": "Building the team", "description": "We built an outsourced accounts receivable team to manage this complexity. To make the work more efficient, we started creating internal tools." },
+        "2023": { "phase": "THE PLATFORM EMERGES", "headline": "Software that actually works", "description": "That internal software became ARMS. It worked so well for our team that we decided to launch it as a platform for companies across industries." },
+        "2026": { "phase": "TODAY", "headline": "Practitioners building for practitioners", "description": "ARMS now serves companies worldwide. Our team combines deep AR expertise with cutting-edge technology. We've lived the problem we're solving." }
+      }
+    },
+    "believe": {
+      "badge": "OUR PRINCIPLES",
+      "title": "What we believe",
+      "subtitle": "These aren't just words on a wall. They're the standards we hold ourselves to every day.",
+      "values": {
+        "practitioner": { "title": "Practitioner-First", "description": "We hire AR experts, not just software engineers. Every feature is tested by people who've actually chased payments." },
+        "transparency": { "title": "Radical Transparency", "description": "No black boxes. You see what we see, when we see it. Your data is yours—period." },
+        "partnership": { "title": "Partnership, Not Just Software", "description": "Your success metrics are our success metrics. We win when you recover more cash with less effort." }
+      }
+    },
+    "builtByOC": {
+      "badge": "WHY WE'RE DIFFERENT",
+      "title": "Built by Order-to-Cash people",
+      "description": "ARMS started as an internal system used daily by accounts receivable teams. Every feature exists because we needed it ourselves.",
+      "bullets": [
+        "15+ years running AR operations",
+        "Team includes former CFOs, controllers, and AR managers",
+        "We still operate managed services—so we stay close to the problem"
+      ]
+    },
+    "twoWays": {
+      "badge": "FLEXIBLE OPTIONS",
+      "title": "One platform. Two ways to work.",
+      "subtitle": "Same technology, same results. You choose the level of involvement.",
+      "headers": { "feature": "Feature", "software": "Software", "managed": "Managed Services" },
+      "features": {
+        "predictiveAnalytics": "Predictive Analytics",
+        "realtimeDashboards": "Real-time Dashboards",
+        "automatedWorkflows": "Automated Workflows",
+        "collectionsOps": "Collections Operations",
+        "collectionsOpsSoftware": "Your team",
+        "collectionsOpsManaged": "Our experts",
+        "legalHandling": "Legal Document Handling",
+        "onsiteSupport": "On-site Support",
+        "dedicatedTeam": "Dedicated AR Team"
+      },
+      "ctaText": "Explore each solution in detail.",
+      "softwareCta": "Software Solution",
+      "managedCta": "Managed Services"
+    },
+    "closing": {
+      "title": "Ready to see what practitioner-built AR looks like?",
+      "subtitle": "Join 500+ finance teams who've moved from chaos to clarity.",
+      "cta": "Get a demo",
+      "pricingLink": "View pricing →"
+    },
+    "story": {
+      "title": "Our Story",
+      "theReality": { "title": "The Reality", "text": "ARMS was founded with deep knowledge in the logistics industry, where we saw how complex and manual accounts receivable truly was." },
+      "theProblem": { "title": "The Problem Beneath the Surface", "text": "Every container, invoice, and customer followed a different path, with different rules and expectations. What seemed like a billing issue was actually a broken Order-to-Cash process." },
+      "theResponse": { "title": "The Human Response", "text": "We built an outsourced accounts receivable team to manage this complexity. To make the work more efficient, the team created internal software." },
+      "thePlatform": { "title": "The Platform Emerges", "text": "That software became ARMS. This became so successful for us that we decided to launch as a platform for companies across industries and regions." }
+    },
+    "workWith": {
+      "title": "One platform. Two ways to work.",
+      "subtitle": "Always focused on clarity and results.",
+      "software": { "title": "Use ARMS as software", "description": "Your team operates the platform with full control and visibility.", "features": ["Full platform access", "Your workflows, your rules", "Self-service configuration"] },
+      "managed": { "title": "Let ARMS operate it with you", "description": "Expert AR team handles operations while you retain visibility.", "features": ["Dedicated AR specialists", "Results without headcount", "Full transparency"] },
+      "learnMore": "Learn more"
+    },
+    "peopleToPlatform": {
+      "title": "Built by", "titleHighlight": "Order-to-Cash", "titleEnd": "people.",
+      "subtitle": "Not theorists. Practitioners.",
+      "description": "ARMS started as an internal system used daily by accounts receivable teams.",
+      "dashboard": { "dso": "DSO", "collectionRate": "Collection Rate", "cashFlow": "Cash Flow" }
+    }
+  },
+  "arCycle": {
+    "title": "The AR Cycle: Event-Based Tracking and AI Prediction in Real Time",
+    "description": "ARMS does not just show where you are. It predicts when each next step will happen and recalculates timelines automatically when disputes, delays, or changes occur.",
+    "legend": {
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "predicted": "Predicted",
+      "exception": "Exception"
+    },
+    "alert": {
+      "title": "Dispute Detected",
+      "description": "Invoice #12847 - Customer raised validation query",
+      "recalculating": "Recalculating...",
+      "updated": "Timeline updated"
+    },
+    "steps": {
+      "invoicing": { "name": "Invoicing", "description": "Invoice generated and sent to customer" },
+      "validation": { "name": "Validation", "description": "Customer validates invoice details and amounts" },
+      "submission": { "name": "Submission", "description": "Invoice submitted to customer's payment system" },
+      "approval": { "name": "Approval", "description": "Customer approves invoice for payment" },
+      "scheduling": { "name": "Scheduling", "description": "Payment scheduled in customer's payment cycle" },
+      "receipt": { "name": "Receipt", "description": "Payment received and recorded" },
+      "application": { "name": "Application", "description": "Payment applied to outstanding invoice" }
+    },
+    "status": {
+      "done": "✓ Done",
+      "now": "Now",
+      "issue": "Issue",
+      "start": "Start",
+      "day": "Day"
+    },
+    "tooltip": {
+      "aiPredicts": "AI predicts:",
+      "disputeResolution": "Dispute requires resolution"
+    },
+    "callouts": {
+      "realtime": { "title": "Real-time Status", "description": "Per client and per invoice visibility" },
+      "predictive": { "title": "Predictive Timelines", "description": "Adapt automatically to changes" },
+      "visibility": { "title": "Full Visibility", "description": "From invoicing to application" }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy document establishes the terms under which ARMS Tech uses and protects the information provided by its users when using its website and/or the ARMS Tech application.",
+    "infoCollected": {
+      "title": "Information Collected",
+      "content": "Our website and/or the ARMS Tech platform may collect personal information such as name, contact information like email address, and/or demographic information. Likewise, when necessary, specific information may be required to process an order or carry out delivery or billing."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "content1": "A cookie refers to a file that is sent in order to request permission to be stored on your computer. By accepting this file, it is created, and the cookie then serves to store information regarding web traffic and also facilitates future visits to a recurring website. Another function of cookies is that they allow websites to recognize you individually and therefore provide you with the best personalized service.",
+      "content2": "Our website uses cookies to identify which pages are visited and how often. This information is used solely for statistical analysis and is then permanently deleted. You can delete cookies at any time from your computer. However, cookies help provide better service from websites. They do not give access to information on your computer or about you unless you choose to provide it directly. You can accept or decline the use of cookies. However, most browsers automatically accept cookies since they help provide better web service. You can also change your computer settings to decline cookies. If you decline them, you may not be able to use some of our services."
+    },
+    "thirdParty": {
+      "title": "Third-Party Links",
+      "content": "This website may contain links to other sites that may be of interest to you. Once you click on these links and leave our page, we no longer have control over the site to which you are redirected and therefore are not responsible for the terms, privacy practices, or protection of your data on those third-party sites. Such sites are subject to their own privacy policies, so it is recommended that you review them to confirm that you agree with them."
+    },
+    "control": {
+      "title": "Control of Your Personal Information",
+      "content1": "At any time, you may restrict the collection or use of personal information provided on our website. Each time you are asked to fill out a form, such as a user registration form, you can check or uncheck the option to receive information by email. If you have chosen to receive our newsletter or advertising, you may cancel it at any time. This company will not sell, assign, or distribute the personal information collected without your consent, unless required by a judge through a court order.",
+      "content2": "ARMS Tech is committed to the security of its users' data. When we ask you to fill in personal information fields by which you can be identified, we do so ensuring that it will only be used in accordance with the terms of this document. However, ARMS Tech reserves the right to change the terms of this Privacy Policy at any time."
+    }
+  },
+  "demoFlow": {
+    "stepIndicator": "Step {{current}} of {{total}}",
+    "steps": {
+      "companySize": {
+        "question": "How many employees does your company have?",
+        "options": {
+          "small": "1–50 employees",
+          "medium": "51–200 employees",
+          "large": "201–1,000 employees",
+          "enterprise": "1,000+ employees"
+        }
+      },
+      "industry": {
+        "question": "Which industry best describes your business?",
+        "options": {
+          "manufacturing": "Manufacturing",
+          "transportLogistics": "Transport & Logistics",
+          "pharma": "Pharma",
+          "services": "Professional Services",
+          "retail": "Retail & Consumer Goods",
+          "other": "Other"
+        },
+        "otherPlaceholder": "Type your industry..."
+      },
+      "invoiceVolume": {
+        "question": "How many invoices do you process per month?",
+        "options": {
+          "under500": "Under 500",
+          "500to2000": "500–2,000",
+          "2000to10000": "2,000–10,000",
+          "over10000": "10,000+"
+        }
+      },
+      "delayReason": {
+        "question": "What's the primary reason payments get delayed?",
+        "options": {
+          "disputes": "Billing disputes and discrepancies",
+          "followUp": "Lack of timely follow-up",
+          "visibility": "Poor visibility into aging invoices",
+          "manualProcesses": "Too many manual processes",
+          "customerBehavior": "Customer payment behavior"
+        }
+      },
+      "currentTools": {
+        "question": "What do you currently use to manage AR?",
+        "options": {
+          "erp": "ERP system (SAP, Oracle, etc.)",
+          "spreadsheets": "Spreadsheets",
+          "arSoftware": "Dedicated AR software",
+          "manual": "Mostly manual processes"
+        }
+      },
+      "timeline": {
+        "question": "When are you looking to improve your AR process?",
+        "options": {
+          "immediate": "Immediately",
+          "1to3months": "Within 1–3 months",
+          "3to6months": "Within 3–6 months",
+          "exploring": "Just exploring"
+        }
+      }
+    },
+    "contactForm": {
+      "title": "Almost there",
+      "subtitle": "Tell us where to send your personalized demo.",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Work email",
+      "company": "Company",
+      "submit": "See my demo"
+    },
+    "success": {
+      "title": "Thank you",
+      "message": "We've received your request. Our team will reach out shortly to schedule your personalized demo.",
+      "close": "Close"
+    }
+  },
+  "salesForm": {
+    "title": "Talk to Sales",
+    "subtitle": "Tell us about your needs and our team will get back to you.",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Work email",
+    "company": "Company",
+    "role": "Your role",
+    "message": "Message",
+    "optional": "optional",
+    "submit": "Talk to sales",
+    "responseTime": "Our team will reach out within one business day.",
+    "success": {
+      "title": "Message sent",
+      "message": "Thank you for reaching out. Our team will get back to you within one business day.",
+      "close": "Close"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Let's start a conversation",
+      "subtitle": "Whether you want to see ARMS in action or explore how we can support your Accounts Receivable operation, our team is here to help."
+    },
+    "info": {
+      "title": "Contact Information",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone",
+      "locationsLabel": "Locations",
+      "locationsNote": "Operating across industries and geographies."
+    },
+    "form": {
+      "title": "Send us a message",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Work Email",
+      "company": "Company",
+      "role": "Role",
+      "optional": "optional",
+      "message": "Message",
+      "submit": "Talk to our team",
+      "responseTime": "Our team will get back to you within one business day.",
+      "successTitle": "Message sent",
+      "successMessage": "Thank you for reaching out. Our team will get back to you within one business day."
+    },
+    "cta": {
+      "title": "Prefer a guided experience?",
+      "button": "Get a Demo"
+    }
+  },
+  "partners": {
+    "hero": {
+      "title": "Let's Build Something Together",
+      "subtitle": "Whether you're an independent consultant or a large integrator, there's a place for you in the ARMS partner ecosystem. Pick the path that fits how you work.",
+      "cta": "Become a Partner"
+    },
+    "stats": {
+      "levels": { "value": "3 levels", "label": "Of partnership with clear growth path" },
+      "recurring": { "value": "Recurring", "label": "Commission on every renewal" },
+      "onboarding": { "value": "48hrs", "label": "Average partner onboarding time" },
+      "firstDeal": { "value": "60 days", "label": "Average time to first closed deal" }
+    },
+    "paths": {
+      "title": "Find Your Path",
+      "subtitle": "Three ways to partner with us. All of them worthwhile.",
+      "whatYouDo": "What you'll do",
+      "whatYouGet": "What you get",
+      "registered": {
+        "name": "Registered Partner",
+        "tagline": "Start simple. Grow from here.",
+        "description": "You know businesses that struggle with collections. Connect them with ARMS and earn every time you do. No complex certifications, no pressure — just a straightforward way to add value to your network.",
+        "whatYouDo": ["Refer opportunities and generate leads", "Make the first commercial introduction", "Represent ARMS in your network"],
+        "whatYouGet": ["Standard commission on every closed deal", "Access to sales and pitch materials", "Opportunity registration to protect your leads", "Commercial support from our team"],
+        "cta": "Get Started"
+      },
+      "certified": {
+        "name": "Certified Partner",
+        "tagline": "Go deeper. Build a real practice.",
+        "description": "You're ready to do more than refer — you want to sell, implement, and support ARMS as part of your core offering. This is where serious channel partners operate and where the biggest opportunities are.",
+        "whatYouDo": ["Run the full sales cycle end to end", "Implement and onboard clients", "Maintain ongoing client relationships"],
+        "whatYouGet": ["Higher commission tier", "Shared lead access from ARMS", "Priority support channel", "Co-marketing opportunities", "Product roadmap access"],
+        "cta": "Get Started"
+      },
+      "strategic": {
+        "name": "Strategic Partner",
+        "tagline": "Align at the highest level.",
+        "description": "You have the scale, the market presence, and the ambition to grow with ARMS long term. Strategic partners don't just sell our product — they help shape where it goes. If that sounds like you, let's talk.",
+        "whatYouDo": ["Drive predictable, high-volume growth", "Open new markets and segments", "Co-develop solutions with our team"],
+        "whatYouGet": ["Premium commission structure", "Sector or regional exclusivity", "Joint product development access", "Dedicated partner success manager", "Early access to new features and betas"],
+        "cta": "Let's Talk"
+      }
+    },
+    "progression": {
+      "title": "Your Growth Path",
+      "subtitle": "See exactly what changes as you grow with us.",
+      "stops": {
+        "registered": { "name": "Registered", "desc": "Start earning right away" },
+        "certified": { "name": "Certified", "desc": "Build a full practice" },
+        "strategic": { "name": "Strategic", "desc": "Shape the ecosystem" }
+      },
+      "compareBtn": "Compare all benefits",
+      "table": {
+        "feature": "Feature",
+        "commissions": "Commissions",
+        "leadsAndSales": "Leads & Sales",
+        "support": "Support",
+        "marketing": "Marketing",
+        "productAccess": "Product Access",
+        "features": {
+          "standardCommission": "Standard commission",
+          "higherCommission": "Higher commission tier",
+          "premiumCommission": "Premium commission structure",
+          "opportunityRegistration": "Opportunity registration",
+          "basicSalesMaterials": "Access to basic sales materials",
+          "sharedLeadAccess": "Shared lead access from ARMS",
+          "exclusivity": "Sector or regional exclusivity",
+          "commercialSupport": "Commercial support",
+          "prioritySupport": "Priority support channel",
+          "dedicatedManager": "Dedicated partner success manager",
+          "coMarketing": "Co-marketing opportunities",
+          "jointDevelopment": "Joint product development",
+          "roadmapAccess": "Product roadmap access",
+          "earlyAccess": "Early access to new features"
+        }
+      }
+    },
+    "map": {
+      "title": "A Growing Ecosystem",
+      "subtitle": "Join partners across all geographies."
+    },
+    "faq": {
+      "title": "Common Questions",
+      "subtitle": "Everything you need to know before taking the next step.",
+      "items": [
+        { "q": "Do I need experience in accounts receivable to become a partner?", "a": "Not at all. Many of our most successful Registered Partners came from adjacent fields like finance, ERP consulting, or business advisory. We provide everything you need to understand and communicate the value of ARMS to your clients. If you know businesses that struggle with collections, you're already halfway there." },
+        { "q": "How quickly can I start earning?", "a": "As a Registered Partner you can start referring opportunities immediately after completing a short onboarding. Most partners make their first referral within the first two weeks. Certified Partners typically close their first deal within 60 days of certification." },
+        { "q": "What's the time commitment for each partner level?", "a": "Registered Partners can participate at their own pace — there's no minimum activity requirement to get started. Certified Partners commit to minimum sales targets and maintaining trained personnel. Strategic Partners operate under a joint growth plan with ARMS, which involves a deeper, ongoing commitment." },
+        { "q": "How does the commission structure work?", "a": "Each partner level has its own commission tier, with higher levels earning a greater percentage per closed deal. Specific commission rates are shared during the onboarding conversation with our partnerships team. We keep it transparent and competitive." },
+        { "q": "Can I upgrade my partner level over time?", "a": "Absolutely — and we actively encourage it. Every level is designed with clear incentives to move up. When you're ready to go deeper, our team will guide you through the transition. There's no penalty for starting at Registered and growing from there." },
+        { "q": "What support does ARMS provide to partners?", "a": "It depends on your level. Registered Partners get access to sales materials and commercial support. Certified Partners unlock priority support and co-marketing. Strategic Partners get a dedicated partner success manager and early access to new features. At every level, you're not on your own." },
+        { "q": "What if my market isn't listed yet?", "a": "That's actually one of our favorite conversations to have. ARMS is actively growing and every new market we enter starts with a partner who believed in it early. If you're based somewhere we're not yet, reach out anyway — we want to hear from you. Spain, Colombia, and Argentina are already on our roadmap, and beyond that, we're open. The right partner in the right market can change everything." }
+      ]
+    },
+    "modal": {
+      "title": "Let's Get You Started",
+      "subtitle": "Tell us a little about yourself and we'll be in touch within one business day.",
+      "firstName": "First name *",
+      "lastName": "Last name *",
+      "email": "Work email *",
+      "company": "Company *",
+      "role": "Your role *",
+      "rolePlaceholder": "e.g. Sales Director, CEO",
+      "partnershipType": "Partnership type *",
+      "options": {
+        "registered": "Registered Partner",
+        "certified": "Certified Partner",
+        "strategic": "Strategic Partner",
+        "notSure": "Not sure yet"
+      },
+      "message": "Message (optional)",
+      "messagePlaceholder": "Tell us about your business and what you're looking for in a partnership",
+      "submit": "Send My Application",
+      "submitting": "Sending...",
+      "successTitle": "Application received!",
+      "successMessage": "Our partnerships team will reach out within one business day.",
+      "errorTitle": "Missing information",
+      "errorMessage": "Please fill in all required fields.",
+      "footer": "Our partnerships team will reach out within one business day."
+    }
+  },
+  "pricing": {
+    "header": {
+      "title": "Indicative Software Pricing",
+      "subtitle": "Predictable, transparent pricing. No hidden fees.",
+      "managedLabel": "Interested in Managed Services Pricing?",
+      "managedLink": "Learn More"
+    },
+    "stepLabels": {
+      "volume": "Volume",
+      "aging": "Aging",
+      "operations": "Operations",
+      "pricing": "Pricing"
+    },
+    "steps": {
+      "continue": "Continue",
+      "back": "Back",
+      "seePricing": "See pricing",
+      "volume": {
+        "title": "Your monthly activity"
+      },
+      "aging": {
+        "title": "How your portfolio ages",
+        "totalLabel": "total documents",
+        "distribution": "Portfolio distribution"
+      },
+      "operations": {
+        "title": "Your current operations"
+      }
+    },
+    "progress": {
+      "fieldsToComplete": "{{count}} fields to complete",
+      "almostThere": "Almost there...",
+      "ready": "Ready!",
+      "pricesUpdate": "Prices update automatically as you type"
+    },
+    "inputs": {
+      "invoices": "Average monthly invoices",
+      "invoicesHelp": "Typical monthly volume",
+      "recovery": "Average monthly recovery amount",
+      "recoveryHelp": "Total AR you manage monthly",
+      "totalDocuments": "Total documents in portfolio",
+      "totalDocumentsHelp": "All active and aged invoices",
+      "peakThreshold": "Peak invoice threshold",
+      "peakThresholdHelp": "Maximum invoice volume expected during peak months",
+      "debtors": "Active debtors",
+      "debtorsHelp": "Number of unique customers",
+      "dso": "Days Sales Outstanding",
+      "dsoHelp": "Average collection period in days",
+      "completed": "completed"
+    },
+    "aging": {
+      "title": "Aging breakdown",
+      "current": "Current",
+      "1to30": "1–30 days",
+      "31to60": "31–60 days",
+      "61to90": "61–90 days",
+      "90plus": "+90 days",
+      "valid": "Matches total documents",
+      "under": "{{diff}} documents remaining",
+      "over": "{{diff}} documents over total"
+    },
+    "tiers": {
+      "essential": "Essential",
+      "professional": "Professional",
+      "enterprise": "Enterprise"
+    },
+    "cards": {
+      "costPerInvoice": "Cost per invoice",
+      "getStarted": "Get started",
+      "contactSales": "Talk to sales",
+      "mostPopular": "Most Popular",
+      "perMonth": "/mo",
+      "bestFor": {
+        "essential": "Best for small teams",
+        "professional": "Best for growing operations",
+        "enterprise": "Best for scale"
+      },
+      "tierMeta": {
+        "essential": { "tagline": "Get up and running fast", "valueLine": "Most affordable entry point", "bullets": ["Core AR workflows & dashboard", "Invoice lifecycle tracking", "Multi-currency support"], "socialProof": "Ideal for teams under 5 users" },
+        "professional": { "tagline": "Built for growing teams", "valueLine": "Best value per feature", "bullets": ["Everything in Essential", "Automation & business rules engine", "DSO analytics & predictive reporting"], "socialProof": "Most chosen by mid-size operations" },
+        "enterprise": { "tagline": "Full power, fully managed", "valueLine": "Maximum ROI at scale", "bullets": ["Everything in Professional", "Full API access", "Tailored reporting"], "socialProof": "Preferred by high-volume portfolios" }
+      },
+      "features": {
+        "coreWorkflows": "Core AR Workflows & Dashboard",
+        "multiCurrency": "Multi-currency Support",
+        "invoiceTracking": "Invoice Lifecycle Tracking",
+        "automationEngine": "Automation & Business Rules Engine",
+        "dsoAnalytics": "DSO Analytics & Predictive Reporting",
+        "scheduledExports": "Scheduled Exports & App Integrations",
+        "apiAccess": "Debtors, Invoices & Payments API",
+        "tailoredReporting": "Tailored Reporting"
+      }
+    },
+    "roi": {
+      "title": "Operational impact",
+      "hourlyRate": "Staff hourly cost",
+      "currentRate": "Current collection rate",
+      "targetRate": "Target efficiency improvement",
+      "current": "Current",
+      "withARMS": "With ARMS",
+      "savings": "Savings",
+      "hoursCollections": "Manual hours on collections",
+      "collectionEfficiency": "Portfolio visibility",
+      "dsoReduction": "DSO improvement potential",
+      "annualValue": "Estimated annual efficiency gain",
+      "basedOnInputs": "Based on your inputs",
+      "adjustAssumptions": "Adjust assumptions",
+      "payback": "ROI in {{months}} months",
+      "days": "days"
+    },
+    "trust": {
+      "soc2": "SOC 2 Compliant",
+      "noCard": "No credit card required",
+      "secure": "256-bit encryption"
+    },
+    "cta": {
+      "title": "Schedule a call",
+      "button": "Get a demo"
+    },
+    "contactModal": {
+      "title": "Our Team will Reach Out!",
+      "thankYou": "Thank you!",
+      "thankYouDesc": "Our team will reach out within one business day.",
+      "close": "Close",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Work email",
+      "company": "Company",
+      "phone": "Phone number (optional)",
+      "selectedPlan": "Selected Plan",
+      "price": "Price",
+      "submit": "Get in Touch",
+      "disclaimer": "Our team will reach out within one business day."
+    }
+  }
+}
