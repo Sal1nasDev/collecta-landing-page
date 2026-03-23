@@ -108,7 +108,7 @@ const IndustryCard = ({
             {/* Left: Collection Challenges — Animation 2 */}
             <div className="lg:col-span-2">
               <h3
-                className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4 transition-all duration-[400ms] ease-out"
+                className="text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-4 transition-all duration-400 ease-out"
                 style={{
                   opacity: triggered ? 1 : 0,
                   transform: triggered ? "translateY(0)" : "translateY(12px)",
@@ -120,7 +120,7 @@ const IndustryCard = ({
                 {challengeKeys.map((key, idx) => (
                   <li
                     key={idx}
-                    className="flex items-start gap-3 transition-all duration-[400ms] ease-out"
+                    className="flex items-start gap-3 transition-all duration-400 ease-out"
                     style={{
                       opacity: triggered ? 1 : 0,
                       transform: triggered ? "translateY(0)" : "translateY(12px)",

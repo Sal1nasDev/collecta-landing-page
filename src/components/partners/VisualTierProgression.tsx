@@ -152,7 +152,7 @@ const VisualTierProgression = () => {
           </Button>
         </div>
 
-        <div className="overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)]" style={{ maxHeight: tableOpen ? "2000px" : "0", opacity: tableOpen ? 1 : 0 }}>
+        <div className="overflow-hidden transition-all duration-500 ease-spring" style={{ maxHeight: tableOpen ? "2000px" : "0", opacity: tableOpen ? 1 : 0 }}>
           <div className="max-w-4xl mx-auto rounded-xl border border-border bg-card overflow-x-auto mt-2">
             <Table>
               <TableHeader>

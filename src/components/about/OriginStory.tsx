@@ -25,7 +25,7 @@ const TimelineCard = ({ year, index, total }: { year: string; index: number; tot
         </div>
         {index < total - 1 && <div className="w-0.5 flex-1 bg-[#e2e8f0] mt-3" />}
       </div>
-      <div className={`flex-1 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-6 md:p-8 mb-6 transition-all duration-[600ms] ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
+      <div className={`flex-1 bg-[#f8fafc] border border-[#e2e8f0] rounded-2xl p-6 md:p-8 mb-6 transition-all duration-600 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
         <p className="text-xs font-semibold uppercase tracking-[0.1em] mb-3" style={{ color: "#0d9488" }}>
           {t(`about.origin.timeline.${year}.phase`)}
         </p>
@@ -58,13 +58,13 @@ const OriginStory = () => {
     <section ref={sectionRef} className="py-[100px] bg-white">
       <div className="max-w-[800px] mx-auto px-6">
         <div className="text-center mb-16">
-          <p className={`text-xs font-semibold uppercase tracking-[0.15em] mb-4 transition-all duration-[600ms] ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#0d9488", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
+          <p className={`text-xs font-semibold uppercase tracking-[0.15em] mb-4 transition-all duration-600 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#0d9488", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
             {t('about.origin.badge')}
           </p>
-          <h2 className={`text-3xl md:text-4xl font-extrabold mb-4 transition-all duration-[600ms] delay-100 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#0f172a", letterSpacing: "-0.02em", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
+          <h2 className={`text-3xl md:text-4xl font-extrabold mb-4 transition-all duration-600 delay-100 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#0f172a", letterSpacing: "-0.02em", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
             {t('about.origin.title')}
           </h2>
-          <p className={`text-base md:text-lg leading-[1.6] transition-all duration-[600ms] delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#64748b", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
+          <p className={`text-base md:text-lg leading-[1.6] transition-all duration-600 delay-200 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"}`} style={{ color: "#64748b", transitionTimingFunction: "cubic-bezier(0.22, 1, 0.36, 1)" }}>
             {t('about.origin.subtitle')}
           </p>
         </div>

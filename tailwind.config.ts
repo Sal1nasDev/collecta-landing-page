@@ -115,6 +115,13 @@ export default {
           "100%": { transform: "translateY(-50%) translateX(calc(100vw + 100%))" },
         },
       },
+      transitionDuration: {
+        '400': '400ms',
+        '600': '600ms',
+      },
+      transitionTimingFunction: {
+        'spring': 'cubic-bezier(0.22, 1, 0.36, 1)',
+      },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
