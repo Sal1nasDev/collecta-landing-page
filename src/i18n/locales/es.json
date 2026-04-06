@@ -526,7 +526,7 @@
       "currentTools": { "question": "¿Qué usan actualmente para gestionar CxC?", "options": { "erp": "Sistema ERP (SAP, Oracle, etc.)", "spreadsheets": "Hojas de cálculo", "arSoftware": "Software dedicado de CxC", "manual": "Mayormente procesos manuales" } },
       "timeline": { "question": "¿Cuándo buscan mejorar su proceso de CxC?", "options": { "immediate": "Inmediatamente", "1to3months": "Dentro de 1–3 meses", "3to6months": "Dentro de 3–6 meses", "exploring": "Solo explorando" } }
     },
-    "contactForm": { "title": "Ya casi", "subtitle": "Indícanos dónde enviar tu demo personalizado.", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo de trabajo", "company": "Empresa", "submit": "Ver mi demo" },
+    "contactForm": { "title": "Ya casi", "subtitle": "Indícanos dónde enviar tu demo personalizado.", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo de trabajo", "company": "Empresa", "submit": "Ver mi demo", "submitting": "Enviando...", "error": "Algo salió mal. Por favor intenta de nuevo." },
     "success": { "title": "Gracias", "message": "Hemos recibido tu solicitud. Nuestro equipo se comunicará pronto para agendar tu demo personalizado.", "close": "Cerrar" }
   },
   "salesForm": {

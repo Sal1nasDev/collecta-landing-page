@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { ArrowRight, Check, X } from "lucide-react";
+import { submitHubSpotForm } from "@/lib/hubspot";
+
+const DEMO_FORM_GUID = import.meta.env.VITE_HUBSPOT_DEMO_FORM_GUID as string;
 
 interface DemoFlowProps {
   onClose: () => void;
@@ -100,6 +103,8 @@ const DemoFlow = ({ onClose }: DemoFlowProps) => {
     company: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
   const [isTransitioning, setIsTransitioning] = useState(false);
   const [otherIndustry, setOtherIndustry] = useState("");
   const [showOtherInput, setShowOtherInput] = useState(false);
@@ -144,10 +149,30 @@ const DemoFlow = ({ onClose }: DemoFlowProps) => {
     }, 300);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Demo request:", { answers, formData });
-    setIsSubmitted(true);
+    setIsSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      await submitHubSpotForm(DEMO_FORM_GUID, [
+        { name: "firstname", value: formData.firstName },
+        { name: "lastname", value: formData.lastName },
+        { name: "email", value: formData.email },
+        { name: "company", value: formData.company },
+        { name: "company_size", value: answers["company-size"] ?? "" },
+        { name: "industry", value: answers["industry"] ?? "" },
+        { name: "invoice_volume", value: answers["invoice-volume"] ?? "" },
+        { name: "delay_reason", value: answers["delay-reason"] ?? "" },
+        { name: "current_tools", value: answers["current-tools"] ?? "" },
+        { name: "implementation_timeline", value: answers["timeline"] ?? "" },
+      ]);
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
@@ -233,9 +258,14 @@ const DemoFlow = ({ onClose }: DemoFlowProps) => {
               />
             </div>
 
-            <Button type="submit" size="lg" className="w-full mt-6">
-              {t('demoFlow.contactForm.submit')}
-              <ArrowRight className="ml-2 w-4 h-4" />
+            {submitError && (
+              <p className="text-sm text-destructive text-center">
+                {t('demoFlow.contactForm.error')}
+              </p>
+            )}
+            <Button type="submit" size="lg" className="w-full mt-6" disabled={isSubmitting}>
+              {isSubmitting ? t('demoFlow.contactForm.submitting') : t('demoFlow.contactForm.submit')}
+              {!isSubmitting && <ArrowRight className="ml-2 w-4 h-4" />}
             </Button>
           </form>
         </div>

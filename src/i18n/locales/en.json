@@ -700,7 +700,9 @@
       "lastName": "Last name",
       "email": "Work email",
       "company": "Company",
-      "submit": "See my demo"
+      "submit": "See my demo",
+      "submitting": "Sending...",
+      "error": "Something went wrong. Please try again."
     },
     "success": {
       "title": "Thank you",
