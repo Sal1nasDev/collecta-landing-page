@@ -47,7 +47,12 @@ const PartnerApplicationModal = ({ open, onOpenChange, defaultLevel = "not-sure"
         { name: "company", value: form.company },
         { name: "jobtitle", value: form.role },
         { name: "arms_partner_level", value: form.level },
-        { name: "2-32057200/partner_id", value: "" },
+        { name: "2-32057200/partner_id", value: {
+            "registered": "Registered Partner",
+            "certified": "Certified Partner",
+            "strategic": "Strategic Partner",
+            "not-sure": "Not sure yet",
+          }[form.level] ?? "Not sure yet" },
         { name: "message", value: form.message },
       ]);
       toast({ title: t('partners.modal.successTitle'), description: t('partners.modal.successMessage') });
