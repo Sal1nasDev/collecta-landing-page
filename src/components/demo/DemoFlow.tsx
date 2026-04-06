@@ -160,12 +160,12 @@ const DemoFlow = ({ onClose }: DemoFlowProps) => {
         { name: "lastname", value: formData.lastName },
         { name: "email", value: formData.email },
         { name: "company", value: formData.company },
-        { name: "company_size", value: answers["company-size"] ?? "" },
-        { name: "industry", value: answers["industry"] ?? "" },
-        { name: "invoice_volume", value: answers["invoice-volume"] ?? "" },
-        { name: "delay_reason", value: answers["delay-reason"] ?? "" },
-        { name: "current_tools", value: answers["current-tools"] ?? "" },
-        { name: "implementation_timeline", value: answers["timeline"] ?? "" },
+        { name: "arms_company_size", value: answers["company-size"] ?? "" },
+        { name: "arms_industry", value: answers["industry"] ?? "" },
+        { name: "arms_invoices_per_month", value: answers["invoice-volume"] ?? "" },
+        { name: "arms_payment_delay_reason", value: answers["delay-reason"] ?? "" },
+        { name: "arms_current_ar_tool", value: answers["current-tools"] ?? "" },
+        { name: "arms_ar_improvement_timeline", value: answers["timeline"] ?? "" },
       ]);
       setIsSubmitted(true);
     } catch {
