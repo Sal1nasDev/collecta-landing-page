@@ -45,7 +45,7 @@ const PricingContactModal = ({ onClose, planName, planPrice }: PricingContactMod
         { name: "firstname", value: formData.firstName },
         { name: "lastname", value: formData.lastName },
         { name: "email", value: formData.email },
-        { name: "company", value: formData.company },
+        { name: "0-2/name", value: formData.company },
         { name: "phone", value: formData.phone },
         { name: "arms_selected_plan", value: planName },
         { name: "arms_plan_price", value: String(planPrice) },
