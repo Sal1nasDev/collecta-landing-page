@@ -44,7 +44,7 @@ const PartnerApplicationModal = ({ open, onOpenChange, defaultLevel = "not-sure"
         { name: "firstname", value: form.firstName },
         { name: "lastname", value: form.lastName },
         { name: "email", value: form.email },
-        { name: "company", value: form.company },
+        { name: "0-2/name", value: form.company },
         { name: "jobtitle", value: form.role },
         { name: "arms_partner_level", value: form.level },
         { name: "message", value: form.message },
