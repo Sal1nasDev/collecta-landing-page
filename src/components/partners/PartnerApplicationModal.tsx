@@ -11,6 +11,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { submitHubSpotForm } from "@/lib/hubspot";
+
+const PARTNER_FORM_GUID = import.meta.env.VITE_HUBSPOT_PARTNER_FORM_GUID as string;
 
 interface PartnerApplicationModalProps {
   open: boolean;
@@ -29,19 +32,31 @@ const PartnerApplicationModal = ({ open, onOpenChange, defaultLevel = "not-sure"
     onOpenChange(value);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!form.firstName || !form.lastName || !form.email || !form.company || !form.role || !form.level) {
       toast({ title: t('partners.modal.errorTitle'), description: t('partners.modal.errorMessage'), variant: "destructive" });
       return;
     }
     setSubmitting(true);
-    setTimeout(() => {
-      setSubmitting(false);
+    try {
+      await submitHubSpotForm(PARTNER_FORM_GUID, [
+        { name: "firstname", value: form.firstName },
+        { name: "lastname", value: form.lastName },
+        { name: "email", value: form.email },
+        { name: "company", value: form.company },
+        { name: "jobtitle", value: form.role },
+        { name: "arms_partner_level", value: form.level },
+        { name: "message", value: form.message },
+      ]);
       toast({ title: t('partners.modal.successTitle'), description: t('partners.modal.successMessage') });
       setForm({ firstName: "", lastName: "", email: "", company: "", role: "", level: "not-sure", message: "" });
       onOpenChange(false);
-    }, 1200);
+    } catch {
+      toast({ title: t('partners.modal.errorTitle'), description: t('partners.modal.errorMessage'), variant: "destructive" });
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (

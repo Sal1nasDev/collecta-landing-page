@@ -7,6 +7,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Check, X } from "lucide-react";
+import { submitHubSpotForm } from "@/lib/hubspot";
+
+const SALES_FORM_GUID = import.meta.env.VITE_HUBSPOT_SALES_FORM_GUID as string;
 
 interface TalkToSalesFormProps {
   onClose: () => void;
@@ -23,11 +26,29 @@ const TalkToSalesForm = ({ onClose }: TalkToSalesFormProps) => {
     message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Sales contact:", formData);
-    setIsSubmitted(true);
+    setIsSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      await submitHubSpotForm(SALES_FORM_GUID, [
+        { name: "firstname", value: formData.firstName },
+        { name: "lastname", value: formData.lastName },
+        { name: "email", value: formData.email },
+        { name: "company", value: formData.company },
+        { name: "jobtitle", value: formData.role },
+        { name: "message", value: formData.message },
+      ]);
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
@@ -138,8 +159,13 @@ const TalkToSalesForm = ({ onClose }: TalkToSalesFormProps) => {
               />
             </div>
 
-            <Button type="submit" size="lg" className="w-full mt-2">
-              {t('salesForm.submit')}
+            {submitError && (
+              <p className="text-sm text-destructive text-center">
+                {t('salesForm.error')}
+              </p>
+            )}
+            <Button type="submit" size="lg" className="w-full mt-2" disabled={isSubmitting}>
+              {isSubmitting ? t('salesForm.submitting') : t('salesForm.submit')}
             </Button>
 
             <p className="text-sm text-muted-foreground text-center">

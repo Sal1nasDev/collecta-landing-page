@@ -8,11 +8,16 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Mail, Phone, MapPin, ArrowRight, Check } from "lucide-react";
 import DemoFlow from "@/components/demo/DemoFlow";
+import { submitHubSpotForm } from "@/lib/hubspot";
+
+const CONTACT_FORM_GUID = import.meta.env.VITE_HUBSPOT_CONTACT_FORM_GUID as string;
 
 const Contact = () => {
   const { t } = useTranslation();
   const [showDemoFlow, setShowDemoFlow] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
@@ -22,10 +27,26 @@ const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Contact form:", formData);
-    setIsSubmitted(true);
+    setIsSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      await submitHubSpotForm(CONTACT_FORM_GUID, [
+        { name: "firstname", value: formData.firstName },
+        { name: "lastname", value: formData.lastName },
+        { name: "email", value: formData.email },
+        { name: "company", value: formData.company },
+        { name: "jobtitle", value: formData.role },
+        { name: "message", value: formData.message },
+      ]);
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -173,8 +194,13 @@ const Contact = () => {
                           />
                         </div>
 
-                        <Button type="submit" variant="cta" size="lg" className="w-full">
-                          {t('contact.form.submit')}
+                        {submitError && (
+                          <p className="text-sm text-destructive text-center">
+                            {t('contact.form.error')}
+                          </p>
+                        )}
+                        <Button type="submit" variant="cta" size="lg" className="w-full" disabled={isSubmitting}>
+                          {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit')}
                         </Button>
 
                         <p className="text-sm text-muted-foreground text-center">

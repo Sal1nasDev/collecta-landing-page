@@ -5,6 +5,9 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Check, X } from "lucide-react";
 import { formatCurrency } from "./pricingCalculations";
+import { submitHubSpotForm } from "@/lib/hubspot";
+
+const PRICING_FORM_GUID = import.meta.env.VITE_HUBSPOT_PRICING_FORM_GUID as string;
 
 interface PricingContactModalProps {
   onClose: () => void;
@@ -22,6 +25,8 @@ const PricingContactModal = ({ onClose, planName, planPrice }: PricingContactMod
     phone: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitError, setSubmitError] = useState(false);
 
   const isValid =
     formData.firstName.trim() !== "" &&
@@ -29,10 +34,28 @@ const PricingContactModal = ({ onClose, planName, planPrice }: PricingContactMod
     formData.email.trim() !== "" &&
     formData.company.trim() !== "";
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!isValid) return;
-    setIsSubmitted(true);
+    setIsSubmitting(true);
+    setSubmitError(false);
+
+    try {
+      await submitHubSpotForm(PRICING_FORM_GUID, [
+        { name: "firstname", value: formData.firstName },
+        { name: "lastname", value: formData.lastName },
+        { name: "email", value: formData.email },
+        { name: "company", value: formData.company },
+        { name: "phone", value: formData.phone },
+        { name: "arms_selected_plan", value: planName },
+        { name: "arms_plan_price", value: String(planPrice) },
+      ]);
+      setIsSubmitted(true);
+    } catch {
+      setSubmitError(true);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (isSubmitted) {
@@ -144,13 +167,18 @@ const PricingContactModal = ({ onClose, planName, planPrice }: PricingContactMod
               </div>
             </div>
 
+            {submitError && (
+              <p className="text-sm text-destructive text-center">
+                {t("pricing.contactModal.error")}
+              </p>
+            )}
             <Button
               type="submit"
               size="lg"
-              disabled={!isValid}
+              disabled={!isValid || isSubmitting}
               className="w-full mt-2 bg-[hsl(174,82%,33%)] hover:bg-[hsl(174,82%,28%)] text-white"
             >
-              {t("pricing.contactModal.submit")}
+              {isSubmitting ? t("pricing.contactModal.submitting") : t("pricing.contactModal.submit")}
             </Button>
 
             <p className="text-sm text-muted-foreground text-center">

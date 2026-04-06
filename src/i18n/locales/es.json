@@ -532,14 +532,14 @@
   "salesForm": {
     "title": "Hablar con Ventas", "subtitle": "Cuéntanos tus necesidades y nuestro equipo se pondrá en contacto.",
     "firstName": "Nombre", "lastName": "Apellido", "email": "Correo de trabajo", "company": "Empresa",
-    "role": "Tu rol", "message": "Mensaje", "optional": "opcional", "submit": "Hablar con ventas",
+    "role": "Tu rol", "message": "Mensaje", "optional": "opcional", "submit": "Hablar con ventas", "submitting": "Enviando...", "error": "Algo salió mal. Por favor intenta de nuevo.",
     "responseTime": "Nuestro equipo te contactará dentro de un día hábil.",
     "success": { "title": "Mensaje enviado", "message": "Gracias por contactarnos. Nuestro equipo te responderá dentro de un día hábil.", "close": "Cerrar" }
   },
   "contact": {
     "hero": { "title": "Iniciemos una conversación", "subtitle": "Ya sea que quieras ver ARMS en acción o explorar cómo podemos apoyar tu operación de Cuentas por Cobrar, nuestro equipo está aquí para ayudar." },
     "info": { "title": "Información de Contacto", "emailLabel": "Correo electrónico", "phoneLabel": "Teléfono", "locationsLabel": "Ubicaciones", "locationsNote": "Operando en diversas industrias y geografías." },
-    "form": { "title": "Envíanos un mensaje", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo corporativo", "company": "Empresa", "role": "Rol", "optional": "opcional", "message": "Mensaje", "submit": "Hablar con nuestro equipo", "responseTime": "Nuestro equipo te responderá dentro de un día hábil.", "successTitle": "Mensaje enviado", "successMessage": "Gracias por contactarnos. Nuestro equipo te responderá dentro de un día hábil." },
+    "form": { "title": "Envíanos un mensaje", "firstName": "Nombre", "lastName": "Apellido", "email": "Correo corporativo", "company": "Empresa", "role": "Rol", "optional": "opcional", "message": "Mensaje", "submit": "Hablar con nuestro equipo", "submitting": "Enviando...", "error": "Algo salió mal. Por favor intenta de nuevo.", "responseTime": "Nuestro equipo te responderá dentro de un día hábil.", "successTitle": "Mensaje enviado", "successMessage": "Gracias por contactarnos. Nuestro equipo te responderá dentro de un día hábil." },
     "cta": { "title": "¿Prefieres una experiencia guiada?", "button": "Solicitar Demo" }
   },
   "pricing": {
@@ -605,6 +605,8 @@
       "selectedPlan": "Plan seleccionado",
       "price": "Precio",
       "submit": "Contactar",
+      "submitting": "Enviando...",
+      "error": "Algo salió mal. Por favor intenta de nuevo.",
       "disclaimer": "Nuestro equipo se pondrá en contacto en un día hábil."
     }
   }

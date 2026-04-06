@@ -721,6 +721,8 @@
     "message": "Message",
     "optional": "optional",
     "submit": "Talk to sales",
+    "submitting": "Sending...",
+    "error": "Something went wrong. Please try again.",
     "responseTime": "Our team will reach out within one business day.",
     "success": {
       "title": "Message sent",
@@ -750,6 +752,8 @@
       "optional": "optional",
       "message": "Message",
       "submit": "Talk to our team",
+      "submitting": "Sending...",
+      "error": "Something went wrong. Please try again.",
       "responseTime": "Our team will get back to you within one business day.",
       "successTitle": "Message sent",
       "successMessage": "Thank you for reaching out. Our team will get back to you within one business day."
@@ -1011,6 +1015,8 @@
       "selectedPlan": "Selected Plan",
       "price": "Price",
       "submit": "Get in Touch",
+      "submitting": "Sending...",
+      "error": "Something went wrong. Please try again.",
       "disclaimer": "Our team will reach out within one business day."
     }
   }
