@@ -37,7 +37,7 @@ const Contact = () => {
         { name: "firstname", value: formData.firstName },
         { name: "lastname", value: formData.lastName },
         { name: "email", value: formData.email },
-        { name: "company", value: formData.company },
+        { name: "0-2/name", value: formData.company },
         { name: "jobtitle", value: formData.role },
         { name: "message", value: formData.message },
       ]);
