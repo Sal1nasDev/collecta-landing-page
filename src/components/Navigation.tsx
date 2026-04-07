@@ -77,7 +77,7 @@ const Navigation = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0D9488]/95 backdrop-blur-md border-b border-[#0D9488]/30">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0D9488]/95 backdrop-blur-md border-b border-[#0D9488]/30" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
         <div className="container-wide">
           <div className="flex items-center justify-between h-16">
             {/* Mobile: hamburger / isotype morph button */}
